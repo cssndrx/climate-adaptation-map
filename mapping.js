@@ -1,4 +1,105 @@
 const mapping = {
+  "assessment": [
+    {
+      "name": "Cervest",
+      "description": "Cervest\u2019s climate intelligence is built on three core principles: irrefutable and evolving science, quantification for every asset, and open access for all. Seeing and sharing the risks we face and the actions we must take creates a Climate Intelligence Network\u2122 \u2014 enabling us to collaborate with transparency and adapt as we transition to a low-carbon society.",
+      "themes": [
+        "Climate Intelligence",
+        " Climate Intelligence",
+        " Insurance"
+      ],
+      "subthemes": [
+        "Data augmented domain expertise",
+        " Digital twin\n",
+        " Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://cervest.earth/earthscan"
+    },
+    {
+      "name": "ClimateAI",
+      "description": "Quantified climate risk and resilience insights",
+      "themes": [
+        "Insurance",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Assessment",
+        " Risk analysis"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://climate.ai/case-studies/advanta-climate-proof-business/"
+    },
+    {
+      "name": "EarthBlox",
+      "description": "Earth Blox gives sustainability teams satellite imagery analytics to report on climate and biodiversity impacts, risks, and opportunities for millions of  assets in minutes.",
+      "themes": [
+        "Insurance"
+      ],
+      "subthemes": [
+        "Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.earthblox.io/"
+    },
+    {
+      "name": "Floodrisk",
+      "description": "Flood risk reports",
+      "themes": [
+        "Insurance"
+      ],
+      "subthemes": [
+        "Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://floodscores.com/"
+    },
+    {
+      "name": "GetDelos",
+      "description": "Our industry-leading model, based on proprietary data and cutting-edge AI, allows us to safely offer coverage in a market with very limited options.",
+      "themes": [
+        "Insurance"
+      ],
+      "subthemes": [
+        "Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.getdelos.com/"
+    },
+    {
+      "name": "TrueFloodRisk",
+      "description": "Access global climate risk analytics & flood risk mitigation insights developed for resilience experts, floodplain managers, insurers, property owners & renters",
+      "themes": [
+        "FloodTech",
+        " Insurance"
+      ],
+      "subthemes": [
+        "Community Resilience",
+        " Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://truefloodrisk.com/#/solutions"
+    }
+  ],
   "insurance": [
     {
       "name": "Aerobotics",
@@ -12,7 +113,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aerobotics.com/"
     },
     {
@@ -24,7 +127,9 @@ const mapping = {
       ],
       "subthemes": [],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.arbol.io/"
     },
     {
@@ -41,7 +146,9 @@ const mapping = {
         " Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://cervest.earth/earthscan"
     },
     {
@@ -56,7 +163,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://climate.ai/case-studies/advanta-climate-proof-business/"
     },
     {
@@ -71,7 +180,9 @@ const mapping = {
         " Marketplace"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.climatecharted.com/"
     },
     {
@@ -84,7 +195,9 @@ const mapping = {
         "Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.earthblox.io/"
     },
     {
@@ -97,7 +210,9 @@ const mapping = {
         "Parametric Insurance"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.floodbase.com/"
     },
     {
@@ -110,7 +225,9 @@ const mapping = {
         "Rapid payout"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://floodflash.co/"
     },
     {
@@ -123,7 +240,10 @@ const mapping = {
         "Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://floodscores.com/"
     },
     {
@@ -136,7 +256,9 @@ const mapping = {
         "Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.getdelos.com/"
     },
     {
@@ -149,7 +271,9 @@ const mapping = {
         "Reinsurance"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://ourkettle.com/"
     },
     {
@@ -166,7 +290,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigrate.com/"
     },
     {
@@ -190,7 +316,10 @@ const mapping = {
       ],
       "subthemes": [],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://titanflood.com/"
     },
     {
@@ -205,7 +334,9 @@ const mapping = {
         " Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://truefloodrisk.com/#/solutions"
     },
     {
@@ -218,96 +349,10 @@ const mapping = {
         "Parametric Insurance"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://wetterheld.com/home/drought/"
-    }
-  ],
-  "assessment": [
-    {
-      "name": "Cervest",
-      "description": "Cervest\u2019s climate intelligence is built on three core principles: irrefutable and evolving science, quantification for every asset, and open access for all. Seeing and sharing the risks we face and the actions we must take creates a Climate Intelligence Network\u2122 \u2014 enabling us to collaborate with transparency and adapt as we transition to a low-carbon society.",
-      "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence",
-        " Insurance"
-      ],
-      "subthemes": [
-        "Data augmented domain expertise",
-        " Digital twin\n",
-        " Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://cervest.earth/earthscan"
-    },
-    {
-      "name": "ClimateAI",
-      "description": "Quantified climate risk and resilience insights",
-      "themes": [
-        "Insurance",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Assessment",
-        " Risk analysis"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://climate.ai/case-studies/advanta-climate-proof-business/"
-    },
-    {
-      "name": "EarthBlox",
-      "description": "Earth Blox gives sustainability teams satellite imagery analytics to report on climate and biodiversity impacts, risks, and opportunities for millions of  assets in minutes.",
-      "themes": [
-        "Insurance"
-      ],
-      "subthemes": [
-        "Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.earthblox.io/"
-    },
-    {
-      "name": "Floodrisk",
-      "description": "Flood risk reports",
-      "themes": [
-        "Insurance"
-      ],
-      "subthemes": [
-        "Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2C",
-      "website": "https://floodscores.com/"
-    },
-    {
-      "name": "GetDelos",
-      "description": "Our industry-leading model, based on proprietary data and cutting-edge AI, allows us to safely offer coverage in a market with very limited options.",
-      "themes": [
-        "Insurance"
-      ],
-      "subthemes": [
-        "Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.getdelos.com/"
-    },
-    {
-      "name": "TrueFloodRisk",
-      "description": "Access global climate risk analytics & flood risk mitigation insights developed for resilience experts, floodplain managers, insurers, property owners & renters",
-      "themes": [
-        "FloodTech",
-        " Insurance"
-      ],
-      "subthemes": [
-        "Community Resilience",
-        " Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://truefloodrisk.com/#/solutions"
     }
   ],
   "disaster response": [
@@ -323,7 +368,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://avy.eu/"
     },
     {
@@ -338,7 +386,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://bia5.com/"
     },
     {
@@ -353,7 +404,9 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://www.biofilbd.com/"
     },
     {
@@ -368,7 +421,9 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.linkedin.com/company/box-of-rain-water/"
     },
     {
@@ -385,7 +440,10 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://climasens.com/"
     },
     {
@@ -408,7 +466,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -427,7 +488,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://genasys.com/"
     },
     {
@@ -482,7 +546,9 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://marinelabs.io/"
     },
     {
@@ -495,7 +561,9 @@ const mapping = {
         "\nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.project-owl.com/"
     },
     {
@@ -510,7 +578,9 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.qwake.tech/"
     },
     {
@@ -529,7 +599,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sadeemwss.com/"
     },
     {
@@ -542,7 +615,10 @@ const mapping = {
         "Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://saifseas.com/"
     },
     {
@@ -561,7 +637,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sceye.com/"
     },
     {
@@ -574,7 +653,10 @@ const mapping = {
         "\nOperational Recovery"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sesame.solar/"
     },
     {
@@ -589,7 +671,10 @@ const mapping = {
         " Security"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sightbit.com/"
     },
     {
@@ -619,7 +704,9 @@ const mapping = {
         "Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tempoquest.com/"
     },
     {
@@ -638,7 +725,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -651,7 +741,10 @@ const mapping = {
         "Damage Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://tractable.ai/"
     },
     {
@@ -668,7 +761,10 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://wota.co.jp/en/"
     },
     {
@@ -683,7 +779,9 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://zirkarta.wordpress.com/"
     },
     {
@@ -717,7 +815,9 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://www.biofilbd.com/"
     },
     {
@@ -732,7 +832,9 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.linkedin.com/company/box-of-rain-water/"
     },
     {
@@ -751,7 +853,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://genasys.com/"
     },
     {
@@ -783,7 +888,9 @@ const mapping = {
         "\nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.project-owl.com/"
     },
     {
@@ -802,7 +909,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sceye.com/"
     },
     {
@@ -815,7 +925,10 @@ const mapping = {
         "\nOperational Recovery"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sesame.solar/"
     },
     {
@@ -849,8 +962,159 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://wota.co.jp/en/"
+    }
+  ],
+  "digital twin": [
+    {
+      "name": "Cervest",
+      "description": "Cervest\u2019s climate intelligence is built on three core principles: irrefutable and evolving science, quantification for every asset, and open access for all. Seeing and sharing the risks we face and the actions we must take creates a Climate Intelligence Network\u2122 \u2014 enabling us to collaborate with transparency and adapt as we transition to a low-carbon society.",
+      "themes": [
+        "Climate Intelligence",
+        " Climate Intelligence",
+        " Insurance"
+      ],
+      "subthemes": [
+        "Data augmented domain expertise",
+        " Digital twin\n",
+        " Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://cervest.earth/earthscan"
+    },
+    {
+      "name": "Climada",
+      "description": "",
+      "themes": [
+        "Climate Intelligence",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Digital twin\n",
+        " Risk analysis"
+      ],
+      "tech": "Software, Novel science",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.climada.tech/"
+    },
+    {
+      "name": "Fathom",
+      "description": "Global leader in flood and climate risk",
+      "themes": [
+        "FloodTech",
+        " FloodTech",
+        " Disaster Response",
+        " Disaster Response",
+        " FireTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Community Resilience",
+        " Early-warning systems",
+        " Damage Assessment",
+        " Community resilience",
+        " Digital twin\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.fathom.global/"
+    },
+    {
+      "name": "Jupiter",
+      "description": "With forward-focused, rigorous methodologies and analytics delivered by some of the best scientists in the industry, Jupiter turns sophisticated climate science into actionable data.",
+      "themes": [
+        "Climate Intelligence",
+        " Climate Intelligence",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Digital twin\n",
+        " Risk analysis",
+        " Data augmented domain expertise"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.jupiterintel.com/"
+    },
+    {
+      "name": "North IO",
+      "description": "Ladris for TrueEarth and TrueOcean",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Digital twin\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://north.io/en/"
+    },
+    {
+      "name": "One Concern",
+      "description": "The One Concern Resilience Platform provides you with risk intelligence that empowers decision making when time and money are your most valuable resources. Built upon a Digital Twin and powered by advanced risk models, to help you to identify vulnerabilities driven by climate risk and extreme weather, and make better decisions.",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Digital twin\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.oneconcern.com/en/technology/"
+    },
+    {
+      "name": "Sensaway",
+      "description": "Get real-time insights into your production with a Digital Twin of your farm.",
+      "themes": [
+        "AgriTech",
+        " Climate Intelligence",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Digital twin\n",
+        " Water Management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.sensaway.com/"
+    },
+    {
+      "name": "Terrafuse AI",
+      "description": "Hyperlocal climate risk scores powered by machine learning to prevent losses and boost decision-making accuracy.",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Digital twin\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.terrafuse-ai.com/"
     }
   ],
   "climate intelligence": [
@@ -870,7 +1134,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://7analytics.no/about/"
     },
     {
@@ -887,7 +1153,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aidash.com/industry/water-and-wastewater/"
     },
     {
@@ -902,7 +1170,9 @@ const mapping = {
         " Satelites"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://albedo.com/"
     },
     {
@@ -915,7 +1185,9 @@ const mapping = {
         "Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amini.ai/"
     },
     {
@@ -932,7 +1204,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aquascope.com/"
     },
     {
@@ -944,7 +1218,9 @@ const mapping = {
       ],
       "subthemes": [],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.arbol.io/"
     },
     {
@@ -961,7 +1237,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://attentistechnology.com/"
     },
     {
@@ -978,7 +1257,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ceresimaging.net/"
     },
     {
@@ -995,7 +1276,9 @@ const mapping = {
         " Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://cervest.earth/earthscan"
     },
     {
@@ -1012,7 +1295,10 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://climasens.com/"
     },
     {
@@ -1027,7 +1313,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software, Novel science",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.climada.tech/"
     },
     {
@@ -1042,7 +1330,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://climate.ai/case-studies/advanta-climate-proof-business/"
     },
     {
@@ -1074,7 +1364,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.dryad.net/"
     },
     {
@@ -1087,7 +1380,9 @@ const mapping = {
         "Data Science"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://earthmover.io/"
     },
     {
@@ -1110,7 +1405,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -1123,7 +1421,9 @@ const mapping = {
         "Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.hayden.ai/"
     },
     {
@@ -1140,7 +1440,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hohonu.io/"
     },
     {
@@ -1155,7 +1458,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hydrosat.com/"
     },
     {
@@ -1172,7 +1478,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iseechange.com/getting-started"
     },
     {
@@ -1189,7 +1498,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.imageau.com/en/home/"
     },
     {
@@ -1210,7 +1521,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -1227,7 +1541,10 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.jupiterintel.com/"
     },
     {
@@ -1240,7 +1557,10 @@ const mapping = {
         "Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.ladris.com/"
     },
     {
@@ -1259,7 +1579,9 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://marinelabs.io/"
     },
     {
@@ -1274,7 +1596,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigasolutions.com/"
     },
     {
@@ -1291,7 +1615,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigrate.com/"
     },
     {
@@ -1304,7 +1630,9 @@ const mapping = {
         "Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://nearspacelabs.com/"
     },
     {
@@ -1317,7 +1645,9 @@ const mapping = {
         "Digital twin\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://north.io/en/"
     },
     {
@@ -1330,7 +1660,9 @@ const mapping = {
         "Digital twin\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.oneconcern.com/en/technology/"
     },
     {
@@ -1343,7 +1675,9 @@ const mapping = {
         "Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.planet.com/products/planetary-variables/"
     },
     {
@@ -1375,7 +1709,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sadeemwss.com/"
     },
     {
@@ -1394,7 +1731,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sceye.com/"
     },
     {
@@ -1411,7 +1751,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sensaway.com/"
     },
     {
@@ -1426,7 +1768,9 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sparrow.city/"
     },
     {
@@ -1439,7 +1783,9 @@ const mapping = {
         "Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://spire.com/"
     },
     {
@@ -1454,7 +1800,9 @@ const mapping = {
         " Data Science"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sustglobal.com/"
     },
     {
@@ -1488,7 +1836,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -1501,7 +1852,9 @@ const mapping = {
         "Digital twin\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.terrafuse-ai.com/"
     },
     {
@@ -1518,7 +1871,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tesselo.com/"
     },
     {
@@ -1531,7 +1886,9 @@ const mapping = {
         "Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.tomorrow.io/"
     },
     {
@@ -1550,7 +1907,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -1563,7 +1923,9 @@ const mapping = {
         "Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.urbansky.com/"
     },
     {
@@ -1606,138 +1968,10 @@ const mapping = {
         "Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.praedictus.com/"
-    }
-  ],
-  "digital twin": [
-    {
-      "name": "Cervest",
-      "description": "Cervest\u2019s climate intelligence is built on three core principles: irrefutable and evolving science, quantification for every asset, and open access for all. Seeing and sharing the risks we face and the actions we must take creates a Climate Intelligence Network\u2122 \u2014 enabling us to collaborate with transparency and adapt as we transition to a low-carbon society.",
-      "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence",
-        " Insurance"
-      ],
-      "subthemes": [
-        "Data augmented domain expertise",
-        " Digital twin\n",
-        " Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://cervest.earth/earthscan"
-    },
-    {
-      "name": "Climada",
-      "description": "",
-      "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Digital twin\n",
-        " Risk analysis"
-      ],
-      "tech": "Software, Novel science",
-      "distribution": "B2B",
-      "website": "https://www.climada.tech/"
-    },
-    {
-      "name": "Fathom",
-      "description": "Global leader in flood and climate risk",
-      "themes": [
-        "FloodTech",
-        " FloodTech",
-        " Disaster Response",
-        " Disaster Response",
-        " FireTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Community Resilience",
-        " Early-warning systems",
-        " Damage Assessment",
-        " Community resilience",
-        " Digital twin\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.fathom.global/"
-    },
-    {
-      "name": "Jupiter",
-      "description": "With forward-focused, rigorous methodologies and analytics delivered by some of the best scientists in the industry, Jupiter turns sophisticated climate science into actionable data.",
-      "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Digital twin\n",
-        " Risk analysis",
-        " Data augmented domain expertise"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.jupiterintel.com/"
-    },
-    {
-      "name": "North IO",
-      "description": "Ladris for TrueEarth and TrueOcean",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Digital twin\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://north.io/en/"
-    },
-    {
-      "name": "One Concern",
-      "description": "The One Concern Resilience Platform provides you with risk intelligence that empowers decision making when time and money are your most valuable resources. Built upon a Digital Twin and powered by advanced risk models, to help you to identify vulnerabilities driven by climate risk and extreme weather, and make better decisions.",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Digital twin\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.oneconcern.com/en/technology/"
-    },
-    {
-      "name": "Sensaway",
-      "description": "Get real-time insights into your production with a Digital Twin of your farm.",
-      "themes": [
-        "AgriTech",
-        " Climate Intelligence",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Digital twin\n",
-        " Water Management"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.sensaway.com/"
-    },
-    {
-      "name": "Terrafuse AI",
-      "description": "Hyperlocal climate risk scores powered by machine learning to prevent losses and boost decision-making accuracy.",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Digital twin\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.terrafuse-ai.com/"
     }
   ],
   "risk analysis": [
@@ -1757,7 +1991,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://7analytics.no/about/"
     },
     {
@@ -1774,7 +2010,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aquascope.com/"
     },
     {
@@ -1791,7 +2029,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ceresimaging.net/"
     },
     {
@@ -1808,7 +2048,10 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://climasens.com/"
     },
     {
@@ -1823,7 +2066,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software, Novel science",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.climada.tech/"
     },
     {
@@ -1838,7 +2083,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://climate.ai/case-studies/advanta-climate-proof-business/"
     },
     {
@@ -1870,7 +2117,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.imageau.com/en/home/"
     },
     {
@@ -1887,7 +2136,10 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.jupiterintel.com/"
     },
     {
@@ -1900,7 +2152,10 @@ const mapping = {
         "Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.ladris.com/"
     },
     {
@@ -1919,7 +2174,9 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://marinelabs.io/"
     },
     {
@@ -1934,7 +2191,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigasolutions.com/"
     },
     {
@@ -1951,7 +2210,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigrate.com/"
     },
     {
@@ -1979,7 +2240,9 @@ const mapping = {
         " Data Science"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sustglobal.com/"
     },
     {
@@ -1996,7 +2259,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tesselo.com/"
     },
     {
@@ -2009,7 +2274,9 @@ const mapping = {
         "Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.tomorrow.io/"
     },
     {
@@ -2028,7 +2295,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -2056,7 +2326,9 @@ const mapping = {
         "Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.praedictus.com/"
     }
   ],
@@ -2077,7 +2349,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://7analytics.no/about/"
     },
     {
@@ -2094,7 +2368,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aidash.com/industry/water-and-wastewater/"
     },
     {
@@ -2111,7 +2387,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ceresimaging.net/"
     },
     {
@@ -2128,7 +2406,9 @@ const mapping = {
         " Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://cervest.earth/earthscan"
     },
     {
@@ -2145,7 +2425,10 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.jupiterintel.com/"
     }
   ],
@@ -2166,7 +2449,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://7analytics.no/about/"
     },
     {
@@ -2181,7 +2466,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aerobotics.com/"
     },
     {
@@ -2196,7 +2483,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.agrobiogel.com/agrobiogel"
     },
     {
@@ -2213,7 +2502,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aidash.com/industry/water-and-wastewater/"
     },
     {
@@ -2230,7 +2521,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquaexchange.com/"
     },
     {
@@ -2261,7 +2554,9 @@ const mapping = {
         "Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquaoso.com/"
     },
     {
@@ -2274,7 +2569,10 @@ const mapping = {
         "Microstock\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://aspirefg.com/"
     },
     {
@@ -2291,7 +2589,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://athenairtech.com/"
     },
     {
@@ -2306,7 +2606,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.betabugs.uk/"
     },
     {
@@ -2340,7 +2642,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bluewhite.co/"
     },
     {
@@ -2353,7 +2657,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bonsairobotics.ai/"
     },
     {
@@ -2366,7 +2672,9 @@ const mapping = {
         "Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://bountiful.ag/bountiful-agriculture-analytics-and-yield-forecasts/"
     },
     {
@@ -2379,7 +2687,9 @@ const mapping = {
         "Storage"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.cellarinsights.com/"
     },
     {
@@ -2396,7 +2706,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ceresimaging.net/"
     },
     {
@@ -2413,7 +2725,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://cropx.com/"
     },
     {
@@ -2426,7 +2740,9 @@ const mapping = {
         "Microstock\n"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.cyns.com.br/"
     },
     {
@@ -2441,7 +2757,10 @@ const mapping = {
         " Animal/Feed/Health Management"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://delosaqua.com/"
     },
     {
@@ -2456,7 +2775,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.digidrip.eu/en/"
     },
     {
@@ -2471,7 +2792,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://dynaspace.no/"
     },
     {
@@ -2486,7 +2809,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "bb2",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://efpolymer.com/"
     },
     {
@@ -2520,7 +2845,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://entocycle.com/"
     },
     {
@@ -2535,7 +2862,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.eqo.life/solutions"
     },
     {
@@ -2552,7 +2881,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.farmagain.in/"
     },
     {
@@ -2565,7 +2896,9 @@ const mapping = {
         "Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.farmhq.com/"
     },
     {
@@ -2580,7 +2913,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.feedflo.com/"
     },
     {
@@ -2612,7 +2947,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "http://www.flybirdinnovations.com/aboutus.html#whatWeDo"
     },
     {
@@ -2625,7 +2962,9 @@ const mapping = {
         "Animal/Feed/Health Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://fremantleseaweed.com/our-solution/"
     },
     {
@@ -2638,7 +2977,9 @@ const mapping = {
         "Animal/Feed/Health Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.genetirate.fish/"
     },
     {
@@ -2651,7 +2992,10 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.hexagro.io/"
     },
     {
@@ -2666,7 +3010,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hydrosat.com/"
     },
     {
@@ -2679,7 +3026,9 @@ const mapping = {
         "Animal/Feed/Health Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://impact-9.com/"
     },
     {
@@ -2711,7 +3060,9 @@ const mapping = {
         " Security"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.insightrobotics.com/en/"
     },
     {
@@ -2732,7 +3083,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -2749,7 +3103,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://jala.tech/"
     },
     {
@@ -2775,7 +3131,10 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.kheyti.com/"
     },
     {
@@ -2790,7 +3149,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kilimo.com/home-english/"
     },
     {
@@ -2803,7 +3164,9 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.lettusgrow.com/"
     },
     {
@@ -2831,7 +3194,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": NaN
     },
     {
@@ -2848,7 +3213,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mialgae.com/"
     },
     {
@@ -2863,7 +3230,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://minnowtech.com/"
     },
     {
@@ -2876,7 +3245,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.muddymachines.com/"
     },
     {
@@ -2889,7 +3260,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://mycionics.com/"
     },
     {
@@ -2962,7 +3335,9 @@ const mapping = {
         " Aquaculture"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://poseidonos.com/"
     },
     {
@@ -2996,7 +3371,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://rantizo.com/"
     },
     {
@@ -3011,7 +3388,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sandtogreen.com/en"
     },
     {
@@ -3028,7 +3407,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sensaway.com/"
     },
     {
@@ -3045,7 +3426,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sensilize.com/"
     },
     {
@@ -3079,7 +3462,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sunculture.io/"
     },
     {
@@ -3094,7 +3479,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sundew.bio/"
     },
     {
@@ -3107,7 +3494,10 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware",
-      "distribution": "B2C, B2B",
+      "distribution": [
+        "b2c",
+        "b2b"
+      ],
       "website": "https://www.thecircle.global/products/"
     },
     {
@@ -3126,7 +3516,9 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.treetoscope.com/"
     },
     {
@@ -3141,7 +3533,11 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2C, B2B, B2Government",
+      "distribution": [
+        "b2c",
+        "b2b",
+        "b2government"
+      ],
       "website": "https://umitron.com/en/service.html"
     },
     {
@@ -3160,7 +3556,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -3188,7 +3587,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://vergeag.com/"
     },
     {
@@ -3214,7 +3615,9 @@ const mapping = {
         "Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://vinsense.net/"
     },
     {
@@ -3229,7 +3632,10 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://wandafish.com/"
     },
     {
@@ -3246,7 +3652,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://worldfrom.space/what_we_do/agriculture/"
     },
     {
@@ -3289,7 +3697,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ifarming.it/products/?lang=en"
     },
     {
@@ -3304,482 +3714,10 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://o2company.live/en/#oportunidad"
-    }
-  ],
-  "animal/feed/health management": [
-    {
-      "name": "AquaExchange",
-      "description": "We provide full stack services to aquaculture farmers through affordable IoT solutions to reduce crop expenses, Crop finance, Input Procurement and Harvest Facilitation.\n\n",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Water Management",
-        " Animal/Feed/Health Management",
-        " Analytics\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://aquaexchange.com/"
-    },
-    {
-      "name": "Aquaconnect",
-      "description": "Full stack aquaculture platform and marketplace",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Water Management",
-        " Monitoring & Forecasting"
-      ],
-      "tech": "Software",
-      "distribution": NaN,
-      "website": "https://aquaconnect.blue/"
-    },
-    {
-      "name": "BlueLionLabs",
-      "description": "Real-time aquaculture monitoring using computer vision",
-      "themes": [
-        "WaterTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Animal/Feed/Health Management",
-        " Water Management"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://bluelionlabs.com/"
-    },
-    {
-      "name": "Bluewhite",
-      "description": "Robot as a service for farming\n",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Mechanisation",
-        " Analytics\n"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://www.bluewhite.co/"
-    },
-    {
-      "name": "CropX",
-      "description": "CropX is an easy-to-use yet powerful agronomic farm management system that connects farm data, real-time conditions and agronomic knowledge to provide guidance for successful and sustainable farming, while aggregating all agronomic farm data in one place for easy tracking and sharing.",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Crop/soil protection and enhancement",
-        " Mechanisation"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B",
-      "website": "https://cropx.com/"
-    },
-    {
-      "name": "Delos",
-      "description": "DELOS is a science-driven aqua-tech company seeking to disrupt the traditional and fragmented aquaculture industry in Indonesia, with eyes on South Asia as a whole.",
-      "themes": [
-        "Labour",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Training",
-        " Animal/Feed/Health Management"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://delosaqua.com/"
-    },
-    {
-      "name": "Dynaspace",
-      "description": "Satelite intelligence for the shrimp industry",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Analytics\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://dynaspace.no/"
-    },
-    {
-      "name": "Entocycle",
-      "description": "The UK\u2019s leading provider of insect farms and insect farming technology.",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech",
-        " AgriTech",
-        " \"FoodTech\n\""
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Microstock\n",
-        " Analytics\n",
-        " Indoor crops",
-        " Alternative nutrition sources"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://entocycle.com/"
-    },
-    {
-      "name": "FeedFlo",
-      "description": "As the world\u2019s only on-pipe feed sensor, FeedFlo tells you exactly how much feed is being delivered to your animals so you can be sure that every pig in your barn is well fed and growing.\n",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Analytics\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.feedflo.com/"
-    },
-    {
-      "name": "Feedware",
-      "description": "SaaS for animal feed management",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Analytics\n",
-        " Mechanisation"
-      ],
-      "tech": "Software",
-      "distribution": NaN,
-      "website": "https://feedware.ca/"
-    },
-    {
-      "name": "Freemantle Seeweed",
-      "description": "We\u2019re cultivating Asparagopsis as a natural cattle feed supplement. When fed to livestock in small doses, our seaweed significantly reduces their methane output.",
-      "themes": [
-        "AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://fremantleseaweed.com/our-solution/"
-    },
-    {
-      "name": "GenetiRate",
-      "description": "GenetiRate sorts eyed eggs, embryonic fish, and spat based on metabolic rate.  By sorting based on metabolic rate we identify animals that are genetically superior for growth.",
-      "themes": [
-        "AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.genetirate.fish/"
-    },
-    {
-      "name": "Impact-9",
-      "description": "AQUACULTURE SOLUTIONS FOR HIGH ENERGY ENVIRONMENTS.",
-      "themes": [
-        "AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://impact-9.com/"
-    },
-    {
-      "name": "Inari",
-      "description": "Transformative Seed Technology for Greater Productivity and Sustainability\n",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Analytics\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://inari.com/"
-    },
-    {
-      "name": "Jala Tech",
-      "description": "End-to-end shrimp farm management",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Water Management",
-        " Analytics\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://jala.tech/"
-    },
-    {
-      "name": "KAS",
-      "description": "Kuehnle AgroSystems has developed a game-changing fermentation process for the microalga Haematococcus pluvialis, a trusted source of natural astaxanthin.",
-      "themes": [
-        "AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management"
-      ],
-      "tech": NaN,
-      "distribution": NaN,
-      "website": "https://www.kuehnleagro.com/"
-    },
-    {
-      "name": "MiAlgae",
-      "description": "Algal blooms at sea are well documented evidence of pollution and we look to harness those nutrients by cultivating algae on industrial co-products to produce top quality supplements.",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " \"FoodTech\n\""
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Indoor crops",
-        " Alternative nutrition sources"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.mialgae.com/"
-    },
-    {
-      "name": "Minnowtech",
-      "description": "developing a subsurface biomass reading technology that enables shrimp farmers to improve efficiency and profitability",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Analytics\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://minnowtech.com/"
-    },
-    {
-      "name": "Poseidon Ocean Systems",
-      "description": "oseidon delivers solutions for the aquaculture industry. It is focused on improving fish welfare, while reducing the environmental impact of producing nutritious, sustainable protein to feed the global population. Their technology can help farmers improve fish welfare to realize greater survival and growth, and minimize \u2013 if not eliminate \u2013 mortality events, thereby increasing the yield from every fish, all while reducing the carbon footprint of aquaculture operations.",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Aquaculture"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://poseidonos.com/"
-    },
-    {
-      "name": "Rantizo",
-      "description": "Drone Crop Spraying",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Water Management",
-        " Crop/soil protection and enhancement",
-        " Mechanisation"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://rantizo.com/"
-    },
-    {
-      "name": "Sensaway",
-      "description": "Get real-time insights into your production with a Digital Twin of your farm.",
-      "themes": [
-        "AgriTech",
-        " Climate Intelligence",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Digital twin\n",
-        " Water Management"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.sensaway.com/"
-    },
-    {
-      "name": "Sensilize",
-      "description": "Making science available and scalable in the field with digital technology for sustainable agriculture",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Crop/soil protection and enhancement",
-        " Mechanisation"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://sensilize.com/"
-    },
-    {
-      "name": "Sun Culture",
-      "description": "At SunCulture, we strive to solve the biggest daily challenges of smallholder farmers. We use off-grid solar technology to provide our customers with reliable access to water, irrigation, lighting, and mobile charging, and we can do all of that with a single system.",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Water Management",
-        " Crop/soil protection and enhancement"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://sunculture.io/"
-    },
-    {
-      "name": "Sundew",
-      "description": "Our first product, Biokos, is an effective new treatment for a major parasitic disease of freshwater fish.",
-      "themes": [
-        "AgriTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Monitoring & Forecasting"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.sundew.bio/"
-    },
-    {
-      "name": "Umitron",
-      "description": "Collect all data related to aquaculture and build a sustainable aquaculture computer model.\n",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Mechanisation"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2C, B2B, B2Government",
-      "website": "https://umitron.com/en/service.html"
-    },
-    {
-      "name": "Verdi",
-      "description": "Verdi is building the world\\'s first truly scalable platform for farm automation. We work with the world\\'s largest food brands to grow better and more sustainable crops.",
-      "themes": [
-        "AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Analytics\n"
-      ],
-      "tech": "Software",
-      "distribution": NaN,
-      "website": "https://www.verdi.ag/platform"
-    },
-    {
-      "name": "ViAqua Therapeutics",
-      "description": "Orally administered RNA based vaccines for fisheries",
-      "themes": [
-        "AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://www.viaqua-t.com/"
-    },
-    {
-      "name": "Wanda Fish",
-      "description": "Wanda Fish is an innovative FoodTech company with a platform that produces a wide variety of delicious fish fillets using sustainable cell-cultivation practices.",
-      "themes": [
-        "AgriTech",
-        " \"FoodTech\n\""
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Alternative nutrition sources"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2C",
-      "website": "https://wandafish.com/"
-    },
-    {
-      "name": "Worldfromspace",
-      "description": "Satellite-based products for agriculture and urban",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Crop/soil protection and enhancement",
-        " Animal/Feed/Health Management",
-        " Mechanisation"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B",
-      "website": "https://worldfrom.space/what_we_do/agriculture/"
-    },
-    {
-      "name": "exciplexinc",
-      "description": "ExciPlex is an agtech startup developing a novel diagnostic technologies for the detection of toxins in animal feed and feed inputs",
-      "themes": [
-        "AgriTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.exciplexinc.com/"
     }
   ],
   "analytics": [
@@ -3799,7 +3737,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://7analytics.no/about/"
     },
     {
@@ -3816,7 +3756,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aidash.com/industry/water-and-wastewater/"
     },
     {
@@ -3833,7 +3775,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquaexchange.com/"
     },
     {
@@ -3847,7 +3791,9 @@ const mapping = {
         "Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquaoso.com/"
     },
     {
@@ -3864,7 +3810,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://athenairtech.com/"
     },
     {
@@ -3881,7 +3829,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bluewhite.co/"
     },
     {
@@ -3894,7 +3844,9 @@ const mapping = {
         "Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://bountiful.ag/bountiful-agriculture-analytics-and-yield-forecasts/"
     },
     {
@@ -3909,7 +3861,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://dynaspace.no/"
     },
     {
@@ -3930,7 +3884,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://entocycle.com/"
     },
     {
@@ -3945,7 +3901,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.feedflo.com/"
     },
     {
@@ -3977,7 +3935,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hydrosat.com/"
     },
     {
@@ -4009,7 +3970,9 @@ const mapping = {
         " Security"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.insightrobotics.com/en/"
     },
     {
@@ -4030,7 +3993,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -4047,7 +4013,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://jala.tech/"
     },
     {
@@ -4062,7 +4030,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://minnowtech.com/"
     },
     {
@@ -4113,179 +4083,526 @@ const mapping = {
       "website": "https://www.verdi.ag/platform"
     }
   ],
-  "resilient infrastructure": [
+  "animal/feed/health management": [
     {
-      "name": "Aethon Aerial Solutions",
-      "description": "Aethon Aerial (Aethon) enables 21st century utility asset management by providing utilities with critical asset health information and analysis through remotely captured data.",
-      "themes": [
-        "FireTech",
-        " Land Management",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Forests\n",
-        " Resilient infrastructure"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.aethonaerial.com/"
-    },
-    {
-      "name": "AiDash",
-      "description": "Satelite-based climate intelligence",
+      "name": "AquaExchange",
+      "description": "We provide full stack services to aquaculture farmers through affordable IoT solutions to reduce crop expenses, Crop finance, Input Procurement and Harvest Facilitation.\n\n",
       "themes": [
         "AgriTech",
-        " \"Energy\n\"",
-        " Climate Intelligence"
+        " AgriTech",
+        " AgriTech"
       ],
       "subthemes": [
-        "Analytics\n",
-        " Resilient infrastructure",
-        " Data augmented domain expertise"
+        "Water Management",
+        " Animal/Feed/Health Management",
+        " Analytics\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://aquaexchange.com/"
+    },
+    {
+      "name": "Aquaconnect",
+      "description": "Full stack aquaculture platform and marketplace",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Water Management",
+        " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.aidash.com/industry/water-and-wastewater/"
+      "distribution": NaN,
+      "website": "https://aquaconnect.blue/"
     },
     {
-      "name": "Buzz Solutions",
-      "description": "Efficient  Infrastructure Inspections with the most accurate AI",
-      "themes": [
-        "\"Energy\n\"",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Resilient infrastructure",
-        " Community resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.buzzsolutions.co/"
-    },
-    {
-      "name": "Erthos",
-      "description": "By eliminating the most risky and complicated parts of building a solar power plant, ERTHOS redefines the physics and economics of utility-scale solar.",
-      "themes": [
-        "\"Energy\n\"",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Efficient infrastruture",
-        " Resilient infrastructure"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.erthos.com/"
-    },
-    {
-      "name": "Nostromo Energry",
-      "description": "Energy storage for buildings",
-      "themes": [
-        "\"Energy\n\"",
-        " \"Energy\n\"",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Storage\n",
-        " Resilient infrastructure",
-        " Off-Grid & Back-up Systems"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://nostromo.energy/"
-    },
-    {
-      "name": "Offgridbox",
-      "description": "OffGridBox manufactures modules and integrated all-in-one systems to provide solar energy and purified water",
+      "name": "BlueLionLabs",
+      "description": "Real-time aquaculture monitoring using computer vision",
       "themes": [
         "WaterTech",
-        " \"Energy\n\"",
-        " \"Energy\n\""
+        " AgriTech",
+        " AgriTech"
       ],
       "subthemes": [
-        "Treatment",
-        " Off-Grid & Back-up Systems",
-        " Resilient infrastructure"
+        "Monitoring & Forecasting",
+        " Animal/Feed/Health Management",
+        " Water Management"
       ],
       "tech": "Hardware, Software",
       "distribution": NaN,
-      "website": "https://www.offgridbox.com/"
+      "website": "https://bluelionlabs.com/"
     },
     {
-      "name": "Overstory",
-      "description": "Vegetation is the single greatest contributor to power outages and wildfires caused by our electric grid. Overstory provides utilities with visibility, risk analysis, and optimization recommendations for vegetation management throughout your entire service territory. It does this by applying artificial intelligence to satellite imagery.",
+      "name": "Bluewhite",
+      "description": "Robot as a service for farming\n",
       "themes": [
-        "FireTech",
-        " \"Energy\n\""
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
       ],
       "subthemes": [
-        "Fuel management",
-        " Resilient infrastructure"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.overstory.com/"
-    },
-    {
-      "name": "Perch Energy",
-      "description": "Led by CEO and President Bruce Stewart, Perch Energy is a community solar servicer that enables renters, homeowners, and businesses to save on energy. Its clean energy technology platform offers a suite of services to solar farm developers and asset owners to maximize ROI, from customer acquisition, onboarding, lifecycle management, and billing, to regulatory and policy expertise for navigating program rules.",
-      "themes": [
-        "\"Energy\n\"",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Resilient infrastructure",
-        " Off-Grid & Back-up Systems"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2C",
-      "website": "https://www.perchenergy.com/"
-    },
-    {
-      "name": "Robotics Cats",
-      "description": "AI-powered Wildfire Detection System to save lives and cut loss",
-      "themes": [
-        "FireTech",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Resilient infrastructure"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://roboticscats.com/"
-    },
-    {
-      "name": "absolutewater",
-      "description": "Energy efficient and eco-friendly solutions for solid and liquid waste",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Treatment",
-        " Wastewater",
-        " Resilient infrastructure"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "absolutewater"
-    },
-    {
-      "name": "e-peas",
-      "description": "e-peas has developed pioneered energy harvesting technologies that gather ambient energy such as light, radio frequency, temperature gradient, or vibration, removing the need for battery replacement, and reducing C02 impact. Energy harvesting has already been adopted in multiple products, such as TV remote controls, smart home devices, electronic shelf labels, wearables, industrial sensors, and is considered for a number of other applications where energy efficiency is crucial.",
-      "themes": [
-        "\"Energy\n\""
-      ],
-      "subthemes": [
-        "Resilient infrastructure"
+        "Animal/Feed/Health Management",
+        " Mechanisation",
+        " Analytics\n"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://e-peas.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.bluewhite.co/"
+    },
+    {
+      "name": "CropX",
+      "description": "CropX is an easy-to-use yet powerful agronomic farm management system that connects farm data, real-time conditions and agronomic knowledge to provide guidance for successful and sustainable farming, while aggregating all agronomic farm data in one place for easy tracking and sharing.",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Crop/soil protection and enhancement",
+        " Mechanisation"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://cropx.com/"
+    },
+    {
+      "name": "Delos",
+      "description": "DELOS is a science-driven aqua-tech company seeking to disrupt the traditional and fragmented aquaculture industry in Indonesia, with eyes on South Asia as a whole.",
+      "themes": [
+        "Labour",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Training",
+        " Animal/Feed/Health Management"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://delosaqua.com/"
+    },
+    {
+      "name": "Dynaspace",
+      "description": "Satelite intelligence for the shrimp industry",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Analytics\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://dynaspace.no/"
+    },
+    {
+      "name": "Entocycle",
+      "description": "The UK\u2019s leading provider of insect farms and insect farming technology.",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech",
+        " AgriTech",
+        " \"FoodTech\n\""
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Microstock\n",
+        " Analytics\n",
+        " Indoor crops",
+        " Alternative nutrition sources"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://entocycle.com/"
+    },
+    {
+      "name": "FeedFlo",
+      "description": "As the world\u2019s only on-pipe feed sensor, FeedFlo tells you exactly how much feed is being delivered to your animals so you can be sure that every pig in your barn is well fed and growing.\n",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Analytics\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.feedflo.com/"
+    },
+    {
+      "name": "Feedware",
+      "description": "SaaS for animal feed management",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Analytics\n",
+        " Mechanisation"
+      ],
+      "tech": "Software",
+      "distribution": NaN,
+      "website": "https://feedware.ca/"
+    },
+    {
+      "name": "Freemantle Seeweed",
+      "description": "We\u2019re cultivating Asparagopsis as a natural cattle feed supplement. When fed to livestock in small doses, our seaweed significantly reduces their methane output.",
+      "themes": [
+        "AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://fremantleseaweed.com/our-solution/"
+    },
+    {
+      "name": "GenetiRate",
+      "description": "GenetiRate sorts eyed eggs, embryonic fish, and spat based on metabolic rate.  By sorting based on metabolic rate we identify animals that are genetically superior for growth.",
+      "themes": [
+        "AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.genetirate.fish/"
+    },
+    {
+      "name": "Impact-9",
+      "description": "AQUACULTURE SOLUTIONS FOR HIGH ENERGY ENVIRONMENTS.",
+      "themes": [
+        "AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://impact-9.com/"
+    },
+    {
+      "name": "Inari",
+      "description": "Transformative Seed Technology for Greater Productivity and Sustainability\n",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Analytics\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://inari.com/"
+    },
+    {
+      "name": "Jala Tech",
+      "description": "End-to-end shrimp farm management",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Water Management",
+        " Analytics\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://jala.tech/"
+    },
+    {
+      "name": "KAS",
+      "description": "Kuehnle AgroSystems has developed a game-changing fermentation process for the microalga Haematococcus pluvialis, a trusted source of natural astaxanthin.",
+      "themes": [
+        "AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management"
+      ],
+      "tech": NaN,
+      "distribution": NaN,
+      "website": "https://www.kuehnleagro.com/"
+    },
+    {
+      "name": "MiAlgae",
+      "description": "Algal blooms at sea are well documented evidence of pollution and we look to harness those nutrients by cultivating algae on industrial co-products to produce top quality supplements.",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " \"FoodTech\n\""
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Indoor crops",
+        " Alternative nutrition sources"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.mialgae.com/"
+    },
+    {
+      "name": "Minnowtech",
+      "description": "developing a subsurface biomass reading technology that enables shrimp farmers to improve efficiency and profitability",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Analytics\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://minnowtech.com/"
+    },
+    {
+      "name": "Poseidon Ocean Systems",
+      "description": "oseidon delivers solutions for the aquaculture industry. It is focused on improving fish welfare, while reducing the environmental impact of producing nutritious, sustainable protein to feed the global population. Their technology can help farmers improve fish welfare to realize greater survival and growth, and minimize \u2013 if not eliminate \u2013 mortality events, thereby increasing the yield from every fish, all while reducing the carbon footprint of aquaculture operations.",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Aquaculture"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://poseidonos.com/"
+    },
+    {
+      "name": "Rantizo",
+      "description": "Drone Crop Spraying",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Water Management",
+        " Crop/soil protection and enhancement",
+        " Mechanisation"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://rantizo.com/"
+    },
+    {
+      "name": "Sensaway",
+      "description": "Get real-time insights into your production with a Digital Twin of your farm.",
+      "themes": [
+        "AgriTech",
+        " Climate Intelligence",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Digital twin\n",
+        " Water Management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.sensaway.com/"
+    },
+    {
+      "name": "Sensilize",
+      "description": "Making science available and scalable in the field with digital technology for sustainable agriculture",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Crop/soil protection and enhancement",
+        " Mechanisation"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://sensilize.com/"
+    },
+    {
+      "name": "Sun Culture",
+      "description": "At SunCulture, we strive to solve the biggest daily challenges of smallholder farmers. We use off-grid solar technology to provide our customers with reliable access to water, irrigation, lighting, and mobile charging, and we can do all of that with a single system.",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Water Management",
+        " Crop/soil protection and enhancement"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://sunculture.io/"
+    },
+    {
+      "name": "Sundew",
+      "description": "Our first product, Biokos, is an effective new treatment for a major parasitic disease of freshwater fish.",
+      "themes": [
+        "AgriTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.sundew.bio/"
+    },
+    {
+      "name": "Umitron",
+      "description": "Collect all data related to aquaculture and build a sustainable aquaculture computer model.\n",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Mechanisation"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2c",
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://umitron.com/en/service.html"
+    },
+    {
+      "name": "Verdi",
+      "description": "Verdi is building the world\\'s first truly scalable platform for farm automation. We work with the world\\'s largest food brands to grow better and more sustainable crops.",
+      "themes": [
+        "AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Analytics\n"
+      ],
+      "tech": "Software",
+      "distribution": NaN,
+      "website": "https://www.verdi.ag/platform"
+    },
+    {
+      "name": "ViAqua Therapeutics",
+      "description": "Orally administered RNA based vaccines for fisheries",
+      "themes": [
+        "AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://www.viaqua-t.com/"
+    },
+    {
+      "name": "Wanda Fish",
+      "description": "Wanda Fish is an innovative FoodTech company with a platform that produces a wide variety of delicious fish fillets using sustainable cell-cultivation practices.",
+      "themes": [
+        "AgriTech",
+        " \"FoodTech\n\""
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Alternative nutrition sources"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://wandafish.com/"
+    },
+    {
+      "name": "Worldfromspace",
+      "description": "Satellite-based products for agriculture and urban",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Crop/soil protection and enhancement",
+        " Animal/Feed/Health Management",
+        " Mechanisation"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://worldfrom.space/what_we_do/agriculture/"
+    },
+    {
+      "name": "exciplexinc",
+      "description": "ExciPlex is an agtech startup developing a novel diagnostic technologies for the detection of toxins in animal feed and feed inputs",
+      "themes": [
+        "AgriTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.exciplexinc.com/"
     }
   ],
   "energy\n": [
@@ -4303,7 +4620,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aethonaerial.com/"
     },
     {
@@ -4320,7 +4639,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aidash.com/industry/water-and-wastewater/"
     },
     {
@@ -4333,7 +4654,9 @@ const mapping = {
         "Efficient infrastruture"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amperon.co/"
     },
     {
@@ -4346,7 +4669,9 @@ const mapping = {
         "Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://bedrockenergy.com/"
     },
     {
@@ -4361,7 +4686,9 @@ const mapping = {
         " Resilient Homes"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bisly.com/"
     },
     {
@@ -4376,7 +4703,9 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.buzzsolutions.co/"
     },
     {
@@ -4389,7 +4718,9 @@ const mapping = {
         "Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://emergent.energy/"
     },
     {
@@ -4404,7 +4735,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.erthos.com/"
     },
     {
@@ -4419,7 +4752,9 @@ const mapping = {
         " Installation"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://lun.energy/"
     },
     {
@@ -4447,7 +4782,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://mojavehvac.com/"
     },
     {
@@ -4464,7 +4801,10 @@ const mapping = {
         " Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://nostromo.energy/"
     },
     {
@@ -4496,7 +4836,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.overstory.com/"
     },
     {
@@ -4511,7 +4853,10 @@ const mapping = {
         " Off-Grid & Back-up Systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.perchenergy.com/"
     },
     {
@@ -4526,7 +4871,10 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.quilt.com/"
     },
     {
@@ -4541,7 +4889,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://roboticscats.com/"
     },
     {
@@ -4584,428 +4934,205 @@ const mapping = {
         "Resilient infrastructure"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://e-peas.com/"
     }
   ],
-  "monitoring & forecasting": [
+  "resilient infrastructure": [
     {
-      "name": "7Analytics",
-      "description": "We use hydrology, geology, and data science to develop high-precision risk tools that help everyone from infrastructure owners to architects plan for imminent and future impacts of climate change.",
+      "name": "Aethon Aerial Solutions",
+      "description": "Aethon Aerial (Aethon) enables 21st century utility asset management by providing utilities with critical asset health information and analysis through remotely captured data.",
       "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence",
-        " AgriTech",
-        " WaterTech"
+        "FireTech",
+        " Land Management",
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Data augmented domain expertise",
-        " Risk analysis",
-        " Analytics\n",
-        " Monitoring & Forecasting"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://7analytics.no/about/"
-    },
-    {
-      "name": "AIRBORNE SNOW OBSERVATORIES",
-      "description": "Snow measurements and modelling to support sustainable global water supplies \n",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting"
+        "Community resilience",
+        " Forests\n",
+        " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.airbornesnowobservatories.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.aethonaerial.com/"
     },
     {
-      "name": "Aquaconnect",
-      "description": "Full stack aquaculture platform and marketplace",
+      "name": "AiDash",
+      "description": "Satelite-based climate intelligence",
       "themes": [
         "AgriTech",
-        " AgriTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Water Management",
-        " Monitoring & Forecasting"
-      ],
-      "tech": "Software",
-      "distribution": NaN,
-      "website": "https://aquaconnect.blue/"
-    },
-    {
-      "name": "Aquascope",
-      "description": "\u200dWe detect the \\'waterprint\\' of land use and water users. With this data we support clients with the evidence needed for investment and reporting for targets and credits.",
-      "themes": [
-        "WaterTech",
-        " Climate Intelligence",
+        " \"Energy\n\"",
         " Climate Intelligence"
       ],
       "subthemes": [
-        "Monitoring & Forecasting",
-        " Data Science",
-        " Risk analysis"
+        "Analytics\n",
+        " Resilient infrastructure",
+        " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.aquascope.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.aidash.com/industry/water-and-wastewater/"
     },
     {
-      "name": "Biobot analytics",
-      "description": "We analyze sewage with molecular technologies and AI to provide early warning of population health threats across the globe.",
+      "name": "Buzz Solutions",
+      "description": "Efficient  Infrastructure Inspections with the most accurate AI",
       "themes": [
-        "WaterTech",
-        " ClimateHealthTech"
+        "\"Energy\n\"",
+        " FireTech"
       ],
       "subthemes": [
-        "Monitoring & Forecasting",
-        " Waterborne illness - cholera",
-        " giardiasis",
-        " cryptosporidiosis"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2Government",
-      "website": "https://biobot.io/"
-    },
-    {
-      "name": "BlueLionLabs",
-      "description": "Real-time aquaculture monitoring using computer vision",
-      "themes": [
-        "WaterTech",
-        " AgriTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Animal/Feed/Health Management",
-        " Water Management"
+        "Resilient infrastructure",
+        " Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://bluelionlabs.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.buzzsolutions.co/"
     },
     {
-      "name": "Conservation Labs",
-      "description": "Smart water monitors",
+      "name": "Erthos",
+      "description": "By eliminating the most risky and complicated parts of building a solar power plant, ERTHOS redefines the physics and economics of utility-scale solar.",
       "themes": [
-        "WaterTech",
-        " WaterTech"
+        "\"Energy\n\"",
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring & Forecasting",
-        " Efficiency"
+        "Efficient infrastruture",
+        " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://conservationlabs.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.erthos.com/"
     },
     {
-      "name": "Eqo",
-      "description": "Comprehensive Bio-Monitoring Solutions with Advanced eRNA and eDNA Technologies",
+      "name": "Nostromo Energry",
+      "description": "Energy storage for buildings",
       "themes": [
-        "WaterTech",
-        " AgriTech"
+        "\"Energy\n\"",
+        " \"Energy\n\"",
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring & Forecasting",
-        " Water Management"
+        "Storage\n",
+        " Resilient infrastructure",
+        " Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.eqo.life/solutions"
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://nostromo.energy/"
     },
     {
-      "name": "Flume Water",
-      "description": "A Smarter Way to Track and Reduce Your Water Use",
+      "name": "Offgridbox",
+      "description": "OffGridBox manufactures modules and integrated all-in-one systems to provide solar energy and purified water",
       "themes": [
         "WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Efficiency"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://flumewater.com/"
-    },
-    {
-      "name": "Geosapiens",
-      "description": "Predictive and real-time flood mapping\nBuilding-scale flood risk mapping for a wide range of scenarios",
-      "themes": [
-        "WaterTech",
-        " FloodTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Monitoring and Detection",
-        " Early-warning systems"
-      ],
-      "tech": "Software",
-      "distribution": NaN,
-      "website": "https://www.geosapiens.com/?lang=en"
-    },
-    {
-      "name": "Gradiant",
-      "description": "We\u2019re mobilizing the brightest minds to pioneer advanced solutions that squeeze every last drop of value from water.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Treatment",
-        " Efficiency",
-        " Extraction & Storage"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.gradiant.com/solutions-and-industries/"
-    },
-    {
-      "name": "Imageau",
-      "description": "Digital technology and environmental expertise for the preservation of water resources.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Extraction & Storage",
-        " Risk analysis"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.imageau.com/en/home/"
-    },
-    {
-      "name": "Island Water Technologies",
-      "description": "We have developed and commercialized products at the intersection of wastewater treatment, data connectivity and renewable energy.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Treatment",
-        " Wastewater"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://islandwatertech.com/"
-    },
-    {
-      "name": "Marine Labs",
-      "description": "MarineLabs harnesses the power of our continuously expanding sensor network to provide the highest-resolution data, enhancing safety, streamlining marine operations, and building climate-resilient coastlines. Access to real-time weather intelligence means users can make smarter, safer maritime decisions.",
-      "themes": [
-        "Transport",
-        " Climate Intelligence",
-        " WaterTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Maritime management",
-        " Risk analysis",
-        " Monitoring & Forecasting",
-        " Early-warning systems"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B",
-      "website": "https://marinelabs.io/"
-    },
-    {
-      "name": "Pani Energy",
-      "description": "Improve the efficiency, uptime, and emissions of your water treatment plant with holistic data measurement and predictive optimization.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Wastewater",
-        " Efficiency",
-        " Monitoring & Forecasting"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.pani.global/product"
-    },
-    {
-      "name": "Raingrid",
-      "description": "RainGrid\u2019s globally recognized mission is to build a neural networked rain harvesting utility capacity, that supports smart OneWater circular economy for watershed protection, flood and drought resilience, and fiscal security of the water infrastructure.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution",
-        " Community Resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
-      "website": "https://www.raingrid.com/"
-    },
-    {
-      "name": "SimpleLab",
-      "description": "SimpleLab supercharges the way your business gathers, tests, and analyzes environmental data. Our cloud-based platform gives you all the tools you need with none of the overhead.",
-      "themes": [
-        "WaterTech",
-        " AgriTech",
-        " ClimateHealthTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Analytics\n",
-        " Sanitation"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://gosimplelab.com/"
-    },
-    {
-      "name": "Sundew",
-      "description": "Our first product, Biokos, is an effective new treatment for a major parasitic disease of freshwater fish.",
-      "themes": [
-        "AgriTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Animal/Feed/Health Management",
-        " Monitoring & Forecasting"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.sundew.bio/"
-    },
-    {
-      "name": "Veracet",
-      "description": "Smarter Lake Management powered by data science",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.veracet.com/"
-    },
-    {
-      "name": "WEGOT",
-      "description": "WEGoT aqua provides exceptional water data for buildings to manage their water with utmost ease, in real-time.\n\nWEGoT aqua has two components -\n\n1. A high-precision IoT-enabled ultrasonic sensor\n2. Mobile and desktop applications",
-      "themes": [
-        "WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
-      "website": "https://www.wegot.in/"
-    },
-    {
-      "name": "Water Lens",
-      "description": "Real-time water testing within 10 minutes",
-      "themes": [
-        "WaterTech",
-        " WaterTech"
+        " \"Energy\n\"",
+        " \"Energy\n\""
       ],
       "subthemes": [
         "Treatment",
-        " Monitoring & Forecasting"
+        " Off-Grid & Back-up Systems",
+        " Resilient infrastructure"
       ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.waterlensusa.com/"
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://www.offgridbox.com/"
     },
     {
-      "name": "Waterly (WaterClick)",
-      "description": "WaterClick enables simple, direct integrations between Waterly customers and WaterClick fully vetted partners, greatly expanding data capabilities for water and wastewater utilities.",
+      "name": "Overstory",
+      "description": "Vegetation is the single greatest contributor to power outages and wildfires caused by our electric grid. Overstory provides utilities with visibility, risk analysis, and optimization recommendations for vegetation management throughout your entire service territory. It does this by applying artificial intelligence to satellite imagery.",
       "themes": [
-        "WaterTech",
-        " WaterTech"
+        "FireTech",
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring & Forecasting",
-        " Wastewater"
+        "Fuel management",
+        " Resilient infrastructure"
       ],
       "tech": "Software",
-      "distribution": NaN,
-      "website": "https://www.waterly.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.overstory.com/"
     },
     {
-      "name": "anbsensors",
-      "description": "Next generation of PH sensors",
+      "name": "Perch Energy",
+      "description": "Led by CEO and President Bruce Stewart, Perch Energy is a community solar servicer that enables renters, homeowners, and businesses to save on energy. Its clean energy technology platform offers a suite of services to solar farm developers and asset owners to maximize ROI, from customer acquisition, onboarding, lifecycle management, and billing, to regulatory and policy expertise for navigating program rules.",
       "themes": [
-        "WaterTech"
+        "\"Energy\n\"",
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring & Forecasting"
+        "Resilient infrastructure",
+        " Off-Grid & Back-up Systems"
       ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.anbsensors.com/"
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://www.perchenergy.com/"
     },
     {
-      "name": "bNovate",
-      "description": "With our fully automated Flow Cytometer, assuring the required level of water quality has never been so easy. Online monitoring not only gives a result 70 times faster than HPC it also significantly decreases the costs per analysis.",
+      "name": "Robotics Cats",
+      "description": "AI-powered Wildfire Detection System to save lives and cut loss",
       "themes": [
-        "WaterTech"
+        "FireTech",
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring & Forecasting"
+        "Detection and Suppression",
+        " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.bnovate.com/"
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://roboticscats.com/"
     },
     {
-      "name": "hirayawater",
-      "description": "Water management solutions for developing countries",
+      "name": "absolutewater",
+      "description": "Energy efficient and eco-friendly solutions for solid and liquid waste",
       "themes": [
         "WaterTech",
         " WaterTech",
-        " WaterTech"
+        " \"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution",
-        " Efficiency"
+        "Treatment",
+        " Wastewater",
+        " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
       "distribution": NaN,
-      "website": "https://www.hirayawater.com/rtap"
+      "website": "absolutewater"
     },
     {
-      "name": "vassarlabs",
-      "description": "The platform is capable of advanced hydro-meteorological monitoring and hydrologic forecasting to provide actionable information for flood warning, hydropower operations, water allocation, agriculture operations and other areas",
+      "name": "e-peas",
+      "description": "e-peas has developed pioneered energy harvesting technologies that gather ambient energy such as light, radio frequency, temperature gradient, or vibration, removing the need for battery replacement, and reducing C02 impact. Energy harvesting has already been adopted in multiple products, such as TV remote controls, smart home devices, electronic shelf labels, wearables, industrial sensors, and is considered for a number of other applications where energy efficiency is crucial.",
       "themes": [
-        "FloodTech",
-        " WaterTech",
-        " Disaster Response"
+        "\"Energy\n\""
       ],
       "subthemes": [
-        "Monitoring and Detection",
-        " Monitoring & Forecasting",
-        " Early-warning systems"
+        "Resilient infrastructure"
       ],
-      "tech": "Software, Hardware",
-      "distribution": NaN,
-      "website": "https://vassarlabs.com/aquawise.html"
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://e-peas.com/"
     }
   ],
   "watertech": [
@@ -5025,7 +5152,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://7analytics.no/about/"
     },
     {
@@ -5038,7 +5167,9 @@ const mapping = {
         "Monitoring & Forecasting"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.airbornesnowobservatories.com/"
     },
     {
@@ -5066,7 +5197,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.agrobiogel.com/agrobiogel"
     },
     {
@@ -5079,7 +5212,9 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquamembranes.com/"
     },
     {
@@ -5113,7 +5248,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aquascope.com/"
     },
     {
@@ -5130,7 +5267,9 @@ const mapping = {
         " cryptosporidiosis"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://biobot.io/"
     },
     {
@@ -5143,7 +5282,10 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://bluegreenwatertech.com/"
     },
     {
@@ -5175,7 +5317,11 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.wegrowwater.com/"
     },
     {
@@ -5190,7 +5336,9 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.linkedin.com/company/box-of-rain-water/"
     },
     {
@@ -5205,7 +5353,10 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "http://www.change-water.com/"
     },
     {
@@ -5235,7 +5386,10 @@ const mapping = {
         " Treatment"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.desolenator.com/"
     },
     {
@@ -5250,7 +5404,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.digidrip.eu/en/"
     },
     {
@@ -5263,7 +5419,10 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government, B2B",
+      "distribution": [
+        "b2government",
+        "b2b"
+      ],
       "website": "https://drinkwellsystems.com/"
     },
     {
@@ -5278,7 +5437,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "bb2",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://efpolymer.com/"
     },
     {
@@ -5310,7 +5471,10 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://epiccleantec.com/"
     },
     {
@@ -5325,7 +5489,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.eqo.life/solutions"
     },
     {
@@ -5355,7 +5521,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "http://www.flybirdinnovations.com/aboutus.html#whatWeDo"
     },
     {
@@ -5368,7 +5536,10 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.foliawater.com/"
     },
     {
@@ -5404,7 +5575,9 @@ const mapping = {
         " Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.gradiant.com/solutions-and-industries/"
     },
     {
@@ -5421,7 +5594,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.imageau.com/en/home/"
     },
     {
@@ -5434,7 +5609,9 @@ const mapping = {
         "Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://imhotep.industries/en/"
     },
     {
@@ -5447,7 +5624,10 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.indrawater.com/home"
     },
     {
@@ -5464,7 +5644,9 @@ const mapping = {
         " Wastewater"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://islandwatertech.com/"
     },
     {
@@ -5479,7 +5661,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kilimo.com/home-english/"
     },
     {
@@ -5505,7 +5689,10 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.leapfrog.design/"
     },
     {
@@ -5520,7 +5707,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": NaN
     },
     {
@@ -5533,7 +5722,10 @@ const mapping = {
         "Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://majikwater.co/"
     },
     {
@@ -5552,7 +5744,9 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://marinelabs.io/"
     },
     {
@@ -5612,7 +5806,10 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://openversum.com/"
     },
     {
@@ -5629,7 +5826,9 @@ const mapping = {
         " Wastewater"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pallon.com/workflow"
     },
     {
@@ -5646,7 +5845,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pani.global/product"
     },
     {
@@ -5672,7 +5873,9 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.puraffinity.com/"
     },
     {
@@ -5689,7 +5892,11 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.raingrid.com/"
     },
     {
@@ -5721,7 +5928,11 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://smarterhomes.com/"
     },
     {
@@ -5751,7 +5962,10 @@ const mapping = {
         "Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.source.co/"
     },
     {
@@ -5766,7 +5980,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sundew.bio/"
     },
     {
@@ -5798,7 +6014,9 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.treetoscope.com/"
     },
     {
@@ -5839,7 +6057,10 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.wegot.in/"
     },
     {
@@ -5854,7 +6075,10 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.waterlensusa.com/"
     },
     {
@@ -5882,7 +6106,11 @@ const mapping = {
         "Treatment"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.wateroam.com/"
     },
     {
@@ -5899,7 +6127,10 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://wota.co.jp/en/"
     },
     {
@@ -5942,7 +6173,10 @@ const mapping = {
         "Monitoring & Forecasting"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.bnovate.com/"
     },
     {
@@ -5974,8 +6208,465 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://o2company.live/en/#oportunidad"
+    },
+    {
+      "name": "vassarlabs",
+      "description": "The platform is capable of advanced hydro-meteorological monitoring and hydrologic forecasting to provide actionable information for flood warning, hydropower operations, water allocation, agriculture operations and other areas",
+      "themes": [
+        "FloodTech",
+        " WaterTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Monitoring & Forecasting",
+        " Early-warning systems"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": NaN,
+      "website": "https://vassarlabs.com/aquawise.html"
+    }
+  ],
+  "monitoring & forecasting": [
+    {
+      "name": "7Analytics",
+      "description": "We use hydrology, geology, and data science to develop high-precision risk tools that help everyone from infrastructure owners to architects plan for imminent and future impacts of climate change.",
+      "themes": [
+        "Climate Intelligence",
+        " Climate Intelligence",
+        " AgriTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Data augmented domain expertise",
+        " Risk analysis",
+        " Analytics\n",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://7analytics.no/about/"
+    },
+    {
+      "name": "AIRBORNE SNOW OBSERVATORIES",
+      "description": "Snow measurements and modelling to support sustainable global water supplies \n",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.airbornesnowobservatories.com/"
+    },
+    {
+      "name": "Aquaconnect",
+      "description": "Full stack aquaculture platform and marketplace",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Water Management",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Software",
+      "distribution": NaN,
+      "website": "https://aquaconnect.blue/"
+    },
+    {
+      "name": "Aquascope",
+      "description": "\u200dWe detect the \\'waterprint\\' of land use and water users. With this data we support clients with the evidence needed for investment and reporting for targets and credits.",
+      "themes": [
+        "WaterTech",
+        " Climate Intelligence",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Data Science",
+        " Risk analysis"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.aquascope.com/"
+    },
+    {
+      "name": "Biobot analytics",
+      "description": "We analyze sewage with molecular technologies and AI to provide early warning of population health threats across the globe.",
+      "themes": [
+        "WaterTech",
+        " ClimateHealthTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Waterborne illness - cholera",
+        " giardiasis",
+        " cryptosporidiosis"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2government"
+      ],
+      "website": "https://biobot.io/"
+    },
+    {
+      "name": "BlueLionLabs",
+      "description": "Real-time aquaculture monitoring using computer vision",
+      "themes": [
+        "WaterTech",
+        " AgriTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Animal/Feed/Health Management",
+        " Water Management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://bluelionlabs.com/"
+    },
+    {
+      "name": "Conservation Labs",
+      "description": "Smart water monitors",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Efficiency"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://conservationlabs.com/"
+    },
+    {
+      "name": "Eqo",
+      "description": "Comprehensive Bio-Monitoring Solutions with Advanced eRNA and eDNA Technologies",
+      "themes": [
+        "WaterTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Water Management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.eqo.life/solutions"
+    },
+    {
+      "name": "Flume Water",
+      "description": "A Smarter Way to Track and Reduce Your Water Use",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Efficiency"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://flumewater.com/"
+    },
+    {
+      "name": "Geosapiens",
+      "description": "Predictive and real-time flood mapping\nBuilding-scale flood risk mapping for a wide range of scenarios",
+      "themes": [
+        "WaterTech",
+        " FloodTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Monitoring and Detection",
+        " Early-warning systems"
+      ],
+      "tech": "Software",
+      "distribution": NaN,
+      "website": "https://www.geosapiens.com/?lang=en"
+    },
+    {
+      "name": "Gradiant",
+      "description": "We\u2019re mobilizing the brightest minds to pioneer advanced solutions that squeeze every last drop of value from water.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Treatment",
+        " Efficiency",
+        " Extraction & Storage"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.gradiant.com/solutions-and-industries/"
+    },
+    {
+      "name": "Imageau",
+      "description": "Digital technology and environmental expertise for the preservation of water resources.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Extraction & Storage",
+        " Risk analysis"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.imageau.com/en/home/"
+    },
+    {
+      "name": "Island Water Technologies",
+      "description": "We have developed and commercialized products at the intersection of wastewater treatment, data connectivity and renewable energy.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Treatment",
+        " Wastewater"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://islandwatertech.com/"
+    },
+    {
+      "name": "Marine Labs",
+      "description": "MarineLabs harnesses the power of our continuously expanding sensor network to provide the highest-resolution data, enhancing safety, streamlining marine operations, and building climate-resilient coastlines. Access to real-time weather intelligence means users can make smarter, safer maritime decisions.",
+      "themes": [
+        "Transport",
+        " Climate Intelligence",
+        " WaterTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Maritime management",
+        " Risk analysis",
+        " Monitoring & Forecasting",
+        " Early-warning systems"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://marinelabs.io/"
+    },
+    {
+      "name": "Pani Energy",
+      "description": "Improve the efficiency, uptime, and emissions of your water treatment plant with holistic data measurement and predictive optimization.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Wastewater",
+        " Efficiency",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.pani.global/product"
+    },
+    {
+      "name": "Raingrid",
+      "description": "RainGrid\u2019s globally recognized mission is to build a neural networked rain harvesting utility capacity, that supports smart OneWater circular economy for watershed protection, flood and drought resilience, and fiscal security of the water infrastructure.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " FloodTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Distribution",
+        " Community Resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
+      "website": "https://www.raingrid.com/"
+    },
+    {
+      "name": "SimpleLab",
+      "description": "SimpleLab supercharges the way your business gathers, tests, and analyzes environmental data. Our cloud-based platform gives you all the tools you need with none of the overhead.",
+      "themes": [
+        "WaterTech",
+        " AgriTech",
+        " ClimateHealthTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Analytics\n",
+        " Sanitation"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://gosimplelab.com/"
+    },
+    {
+      "name": "Sundew",
+      "description": "Our first product, Biokos, is an effective new treatment for a major parasitic disease of freshwater fish.",
+      "themes": [
+        "AgriTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Animal/Feed/Health Management",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.sundew.bio/"
+    },
+    {
+      "name": "Veracet",
+      "description": "Smarter Lake Management powered by data science",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.veracet.com/"
+    },
+    {
+      "name": "WEGOT",
+      "description": "WEGoT aqua provides exceptional water data for buildings to manage their water with utmost ease, in real-time.\n\nWEGoT aqua has two components -\n\n1. A high-precision IoT-enabled ultrasonic sensor\n2. Mobile and desktop applications",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Distribution"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://www.wegot.in/"
+    },
+    {
+      "name": "Water Lens",
+      "description": "Real-time water testing within 10 minutes",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Treatment",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.waterlensusa.com/"
+    },
+    {
+      "name": "Waterly (WaterClick)",
+      "description": "WaterClick enables simple, direct integrations between Waterly customers and WaterClick fully vetted partners, greatly expanding data capabilities for water and wastewater utilities.",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Wastewater"
+      ],
+      "tech": "Software",
+      "distribution": NaN,
+      "website": "https://www.waterly.com/"
+    },
+    {
+      "name": "anbsensors",
+      "description": "Next generation of PH sensors",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.anbsensors.com/"
+    },
+    {
+      "name": "bNovate",
+      "description": "With our fully automated Flow Cytometer, assuring the required level of water quality has never been so easy. Online monitoring not only gives a result 70 times faster than HPC it also significantly decreases the costs per analysis.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.bnovate.com/"
+    },
+    {
+      "name": "hirayawater",
+      "description": "Water management solutions for developing countries",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Distribution",
+        " Efficiency"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://www.hirayawater.com/rtap"
     },
     {
       "name": "vassarlabs",
@@ -6006,7 +6697,9 @@ const mapping = {
         "Efficient infrastruture"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amperon.co/"
     },
     {
@@ -6021,7 +6714,9 @@ const mapping = {
         " Resilient Homes"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bisly.com/"
     },
     {
@@ -6036,7 +6731,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.erthos.com/"
     },
     {
@@ -6051,7 +6748,9 @@ const mapping = {
         " Installation"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://lun.energy/"
     },
     {
@@ -6079,7 +6778,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://mojavehvac.com/"
     },
     {
@@ -6094,38 +6795,11 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.quilt.com/"
-    }
-  ],
-  "installation": [
-    {
-      "name": "Amply Energy",
-      "description": "Software for heat pump installers",
-      "themes": [
-        "\"TemperatureTech\n\""
-      ],
-      "subthemes": [
-        "Installation"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.amply.energy/"
-    },
-    {
-      "name": "Lun",
-      "description": "Make quality heat pump installations easy",
-      "themes": [
-        "\"Energy\n\"",
-        " \"TemperatureTech\n\""
-      ],
-      "subthemes": [
-        "Efficient infrastruture",
-        " Installation"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://lun.energy/"
     }
   ],
   "temperaturetech\n": [
@@ -6141,7 +6815,9 @@ const mapping = {
         " Heating"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amperial.eu/"
     },
     {
@@ -6154,7 +6830,9 @@ const mapping = {
         "Installation"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amply.energy/"
     },
     {
@@ -6195,7 +6873,9 @@ const mapping = {
         " Installation"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://lun.energy/"
     },
     {
@@ -6238,7 +6918,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://mojavehvac.com/"
     },
     {
@@ -6253,7 +6935,10 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.quilt.com/"
     },
     {
@@ -6279,8 +6964,45 @@ const mapping = {
         "Insulation"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.varm.earth/"
+    }
+  ],
+  "installation": [
+    {
+      "name": "Amply Energy",
+      "description": "Software for heat pump installers",
+      "themes": [
+        "\"TemperatureTech\n\""
+      ],
+      "subthemes": [
+        "Installation"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.amply.energy/"
+    },
+    {
+      "name": "Lun",
+      "description": "Make quality heat pump installations easy",
+      "themes": [
+        "\"Energy\n\"",
+        " \"TemperatureTech\n\""
+      ],
+      "subthemes": [
+        "Efficient infrastruture",
+        " Installation"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://lun.energy/"
     }
   ],
   "efficiency": [
@@ -6309,7 +7031,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.agrobiogel.com/agrobiogel"
     },
     {
@@ -6324,7 +7048,9 @@ const mapping = {
         " Heating"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amperial.eu/"
     },
     {
@@ -6339,7 +7065,10 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "http://www.change-water.com/"
     },
     {
@@ -6369,7 +7098,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.digidrip.eu/en/"
     },
     {
@@ -6384,7 +7115,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "bb2",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://efpolymer.com/"
     },
     {
@@ -6403,7 +7136,10 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://epiccleantec.com/"
     },
     {
@@ -6459,7 +7195,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "http://www.flybirdinnovations.com/aboutus.html#whatWeDo"
     },
     {
@@ -6478,7 +7216,9 @@ const mapping = {
         " Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.gradiant.com/solutions-and-industries/"
     },
     {
@@ -6506,7 +7246,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kilimo.com/home-english/"
     },
     {
@@ -6521,7 +7263,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": NaN
     },
     {
@@ -6564,7 +7308,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://mojavehvac.com/"
     },
     {
@@ -6596,7 +7342,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pani.global/product"
     },
     {
@@ -6611,7 +7359,10 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.quilt.com/"
     },
     {
@@ -6626,7 +7377,11 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://smarterhomes.com/"
     },
     {
@@ -6658,7 +7413,9 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.treetoscope.com/"
     },
     {
@@ -6690,7 +7447,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://o2company.live/en/#oportunidad"
     }
   ],
@@ -6705,7 +7464,9 @@ const mapping = {
         "Reinsurance"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://ourkettle.com/"
     }
   ],
@@ -6720,7 +7481,9 @@ const mapping = {
         "Parametric Insurance"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.floodbase.com/"
     },
     {
@@ -6746,545 +7509,10 @@ const mapping = {
         "Parametric Insurance"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://wetterheld.com/home/drought/"
-    }
-  ],
-  "community resilience": [
-    {
-      "name": "Aethon Aerial Solutions",
-      "description": "Aethon Aerial (Aethon) enables 21st century utility asset management by providing utilities with critical asset health information and analysis through remotely captured data.",
-      "themes": [
-        "FireTech",
-        " Land Management",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Forests\n",
-        " Resilient infrastructure"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.aethonaerial.com/"
-    },
-    {
-      "name": "Aquipor",
-      "description": "AquiPor\u2019s permeable concrete technology not only manages stormwater naturally, but our material utilizes an inherently low-carbon cement that requires a fraction of the energy and emits a fraction of the CO2 than that of traditional concrete.",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2Government",
-      "website": "https://aquipor.com/"
-    },
-    {
-      "name": "Bufferblock",
-      "description": "The Bufferblock is a solution for stormwater drainage and buffering in the urban area. The function is similar to that of infiltration crates, but because of the high strength a much thinner top layer is needed. This results in a less deep installation depth, higher buffering capacities and a more cost-effective solution.",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2Government",
-      "website": "https://www.bufferblock.nl/en/home/"
-    },
-    {
-      "name": "Buzz Solutions",
-      "description": "Efficient  Infrastructure Inspections with the most accurate AI",
-      "themes": [
-        "\"Energy\n\"",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Resilient infrastructure",
-        " Community resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.buzzsolutions.co/"
-    },
-    {
-      "name": "Fathom",
-      "description": "Global leader in flood and climate risk",
-      "themes": [
-        "FloodTech",
-        " FloodTech",
-        " Disaster Response",
-        " Disaster Response",
-        " FireTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Community Resilience",
-        " Early-warning systems",
-        " Damage Assessment",
-        " Community resilience",
-        " Digital twin\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.fathom.global/"
-    },
-    {
-      "name": "Fire Aside",
-      "description": "Fire Aside is the platform that helps communities adapt to wildfire.",
-      "themes": [
-        "FireTech"
-      ],
-      "subthemes": [
-        "Community resilience"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.fireaside.com/"
-    },
-    {
-      "name": "Firemaps",
-      "description": "Get professional home hardening and defensible space work without the hassle.",
-      "themes": [
-        "FireTech"
-      ],
-      "subthemes": [
-        "Community resilience"
-      ],
-      "tech": "Software",
-      "distribution": "B2C, B2B, B2Government",
-      "website": "https://www.firemaps.com/"
-    },
-    {
-      "name": "Flaim Systems",
-      "description": "Fully immersive VR learning solutions for training in hazardous and emergency situations",
-      "themes": [
-        "FireTech",
-        " Labour"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Training"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://flaimsystems.com/"
-    },
-    {
-      "name": "Flood-con",
-      "description": "Flood-Con, LLC is an automated stormwater management company that provides cutting edge technology through its proprietary products and engineering services.",
-      "themes": [
-        "FloodTech",
-        " FloodTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Community Resilience",
-        " Response"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://flood-con.com/"
-    },
-    {
-      "name": "FloodFrame",
-      "description": "FloodFrame is the simple, effective solution that safeguards your home from flood damage.",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://floodframe.com/en/"
-    },
-    {
-      "name": "Frontline Wildfire Defense",
-      "description": "Frontline Wildfire Defense is on a mission to provide faster, safer, more precise ways to protect homes, families, and communities from wildfire.",
-      "themes": [
-        "FireTech"
-      ],
-      "subthemes": [
-        "Community resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
-      "website": "https://www.frontlinewildfire.com/"
-    },
-    {
-      "name": "Genasys",
-      "description": "Genasys Protective Communications Solutions have a diverse range of applications, including predictive simulation to anticipate and understand the potential impact of emerging crises; emergency warning and mass notification for public safety; critical event management for commercial enterprises and government agencies; de-escalation for defense and law enforcement; as well as automatic detection of real-time threats like active shooters and severe weather.",
-      "themes": [
-        "FireTech",
-        " Disaster Response",
-        " Disaster Response",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Early-warning systems",
-        " \nOperational Recovery",
-        " Search and rescue"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://genasys.com/"
-    },
-    {
-      "name": "Genasys",
-      "description": "Genasys\u2122 is a global provider of critical communications systems and solutions to help keep people safe. Genasys provides a multi-channel approach to deliver geo-targeted alerts, notifications, instructions and information before, during and after public safety threats and critical business events.",
-      "themes": [
-        "FireTech",
-        " FireTech",
-        " Disaster Response",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Detection and Suppression",
-        " \nOperational Recovery",
-        " Early-warning systems"
-      ],
-      "tech": NaN,
-      "distribution": NaN,
-      "website": "https://genasys.com/"
-    },
-    {
-      "name": "ISeeChange",
-      "description": "Your observations and block-by-block insights can help cities, engineers and local organizations advocate for and create solutions to climate challenges.",
-      "themes": [
-        "FireTech",
-        " FloodTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Community Resilience",
-        " Data production"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.iseechange.com/getting-started"
-    },
-    {
-      "name": "Kind designs",
-      "description": "Kind Designs uses 3D-Printing technology to print Living Seawalls that mimic coral reefs and mangroves, hosting biodiversity and improving the quality of water.",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.kinddesigns.org/"
-    },
-    {
-      "name": "Manhole Metrics",
-      "description": "We are a multi-award winning sensor and analytics start-up on a mission to stop flooding and bring wastewater into the 21st Century.",
-      "themes": [
-        "FloodTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Community Resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.manholemetrics.com/"
-    },
-    {
-      "name": "MastreForest",
-      "description": "Tech-led reforestation at no cost to landowners.",
-      "themes": [
-        "Land Management",
-        " FireTech",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Forests\n",
-        " Fuel management",
-        " Community resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.mastreforest.com/"
-    },
-    {
-      "name": "Open Plains",
-      "description": "Providing communities with the best decision-making tools today for a climate-resilient tomorrow",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://openplains.com/"
-    },
-    {
-      "name": "Opti",
-      "description": "Optimizing Stormwater Management",
-      "themes": [
-        "FloodTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Community Resilience"
-      ],
-      "tech": "Software",
-      "distribution": "B2Government",
-      "website": "https://optirtc.com/"
-    },
-    {
-      "name": "Ounce",
-      "description": "Ounce is on a mission to empower healthy and thriving communities by building bridges between housing and health.",
-      "themes": [
-        "ClimateHealthTech",
-        " ClimateHealthTech",
-        " FloodTech",
-        " FireTech",
-        " PropTech",
-        " Community Resilience"
-      ],
-      "subthemes": [
-        "Mental Health",
-        " Respiratory disease - worsened by air pollution",
-        " allergens",
-        " Community Resilience",
-        " Community resilience",
-        " Resilient Homes",
-        " General"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.ounceofcare.com/"
-    },
-    {
-      "name": "Raingrid",
-      "description": "RainGrid\u2019s globally recognized mission is to build a neural networked rain harvesting utility capacity, that supports smart OneWater circular economy for watershed protection, flood and drought resilience, and fiscal security of the water infrastructure.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution",
-        " Community Resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
-      "website": "https://www.raingrid.com/"
-    },
-    {
-      "name": "Sceye",
-      "description": "Sceye is building the world\u2019s most advanced, high-altitude platforms. Robust, versatile and solar-powered, they operate in the stratosphere at 65,000 feet. From here, they can deliver super-fast internet directly to device and high-resolution imagery of the Earth in real time.",
-      "themes": [
-        "FireTech",
-        " Disaster Response",
-        " Disaster Response",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " \nOperational Recovery",
-        " Early-warning systems",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.sceye.com/"
-    },
-    {
-      "name": "StormHarvester",
-      "description": "Automated Control of Waste Water networks to reduce Combined Sewer Overflows and Flooding",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://stormharvester.com/about-stormharvester/"
-    },
-    {
-      "name": "StormSensor",
-      "description": "A climate technology company working with cities to map how water moves through sewer, storm, and coastal systems",
-      "themes": [
-        "FloodTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Community Resilience"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.linkedin.com/company/stormsensor/"
-    },
-    {
-      "name": "Technosylva",
-      "description": "Technosylva is the leading provider of wildfire risk mitigation solutions protecting communities and assets from the devastating effects of wildfires.",
-      "themes": [
-        "FireTech",
-        " FireTech",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Fuel management",
-        " Community resilience"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://technosylva.com/"
-    },
-    {
-      "name": "TrueFloodRisk",
-      "description": "Access global climate risk analytics & flood risk mitigation insights developed for resilience experts, floodplain managers, insurers, property owners & renters",
-      "themes": [
-        "FloodTech",
-        " Insurance"
-      ],
-      "subthemes": [
-        "Community Resilience",
-        " Assessment"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://truefloodrisk.com/#/solutions"
-    },
-    {
-      "name": "climaguard",
-      "description": "Made with a military-grade, waterproof, snow-proof, recyclable material, ClimaGuard is the preferred tool of choice for flood and extreme weather protection.",
-      "themes": [
-        "FloodTech"
-      ],
-      "subthemes": [
-        "Community Resilience"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2C, B2B",
-      "website": "https://www.climaguard.co/#:~:text=Meet%20ClimaGuard,every%20season%20of%20the%20year."
-    }
-  ],
-  "search and rescue": [
-    {
-      "name": "Avy",
-      "description": "For situational awareness that helps fire brigades and other emergency services in their effective response to incidents.",
-      "themes": [
-        "FireTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Search and rescue"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://avy.eu/"
-    },
-    {
-      "name": "Bia5",
-      "description": "BIA5 leverages a strong track-record in cutting-edge design, engineering, manufacturing, installation and maintenance of robotics and command and control information technology solutions.",
-      "themes": [
-        "FireTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Search and rescue"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://bia5.com/"
-    },
-    {
-      "name": "Genasys",
-      "description": "Genasys Protective Communications Solutions have a diverse range of applications, including predictive simulation to anticipate and understand the potential impact of emerging crises; emergency warning and mass notification for public safety; critical event management for commercial enterprises and government agencies; de-escalation for defense and law enforcement; as well as automatic detection of real-time threats like active shooters and severe weather.",
-      "themes": [
-        "FireTech",
-        " Disaster Response",
-        " Disaster Response",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Early-warning systems",
-        " \nOperational Recovery",
-        " Search and rescue"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://genasys.com/"
-    },
-    {
-      "name": "Qwake Technologies",
-      "description": "Visual Communication and Navigation for Firefighters",
-      "themes": [
-        "FireTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Search and rescue"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.qwake.tech/"
-    },
-    {
-      "name": "Saif seas",
-      "description": "Automated, remote-controllable life saving water equipment",
-      "themes": [
-        "Disaster Response"
-      ],
-      "subthemes": [
-        "Search and rescue"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://saifseas.com/"
-    },
-    {
-      "name": "Sightbit",
-      "description": "SightBit is an AI management platform for data-powered water management. SightBit software analyzes video feed from waterfront cameras to detect and alert to risks and hazards in order to protect safety and security in all water environments.",
-      "themes": [
-        "Disaster Response",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Search and rescue",
-        " Security"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://sightbit.com/"
-    },
-    {
-      "name": "Zirkarta",
-      "description": "Collaborate and share information with anybody, anywhere, in real-time to empower more informed, agile and safer management of emergencies",
-      "themes": [
-        "FireTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Search and rescue"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://zirkarta.wordpress.com/"
     }
   ],
   "firetech": [
@@ -7302,7 +7530,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aethonaerial.com/"
     },
     {
@@ -7315,7 +7545,9 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.atirasystems.com/"
     },
     {
@@ -7332,7 +7564,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://attentistechnology.com/"
     },
     {
@@ -7347,7 +7582,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://avy.eu/"
     },
     {
@@ -7362,7 +7600,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://bia5.com/"
     },
     {
@@ -7375,7 +7616,10 @@ const mapping = {
         "Fuel management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://burnbot.com/"
     },
     {
@@ -7390,7 +7634,9 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.buzzsolutions.co/"
     },
     {
@@ -7407,7 +7653,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.dryad.net/"
     },
     {
@@ -7420,7 +7669,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.eversense-sps.com/"
     },
     {
@@ -7433,7 +7685,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.exci.ai/how-it-works/"
     },
     {
@@ -7456,7 +7711,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -7469,7 +7727,10 @@ const mapping = {
         "Community resilience"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fireaside.com/"
     },
     {
@@ -7482,7 +7743,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://fireballit.com/"
     },
     {
@@ -7495,7 +7759,11 @@ const mapping = {
         "Community resilience"
       ],
       "tech": "Software",
-      "distribution": "B2C, B2B, B2Government",
+      "distribution": [
+        "b2c",
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.firemaps.com/"
     },
     {
@@ -7510,7 +7778,10 @@ const mapping = {
         " Training"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://flaimsystems.com/"
     },
     {
@@ -7523,7 +7794,10 @@ const mapping = {
         "Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.frontlinewildfire.com/"
     },
     {
@@ -7542,7 +7816,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://genasys.com/"
     },
     {
@@ -7576,7 +7853,9 @@ const mapping = {
         " Detection and Suppression"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.gridware.io/"
     },
     {
@@ -7593,7 +7872,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iseechange.com/getting-started"
     },
     {
@@ -7608,7 +7890,10 @@ const mapping = {
         " Detection and Suppression"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iceye.com/"
     },
     {
@@ -7625,7 +7910,9 @@ const mapping = {
         " Security"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.insightrobotics.com/en/"
     },
     {
@@ -7646,7 +7933,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -7659,7 +7949,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.intterragroup.com/"
     },
     {
@@ -7674,7 +7967,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kodama.ai/faqs"
     },
     {
@@ -7691,7 +7986,9 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mastreforest.com/"
     },
     {
@@ -7708,7 +8005,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://ororatech.com/technology/"
     },
     {
@@ -7732,7 +8032,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     },
     {
@@ -7747,7 +8049,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.overstory.com/"
     },
     {
@@ -7760,7 +8064,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.pano.ai/"
     },
     {
@@ -7773,7 +8080,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://perimeterplatform.com/product/"
     },
     {
@@ -7788,7 +8098,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://quiron.digital/en/"
     },
     {
@@ -7803,7 +8115,9 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.qwake.tech/"
     },
     {
@@ -7816,7 +8130,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.rain.aero/"
     },
     {
@@ -7831,7 +8148,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://roboticscats.com/"
     },
     {
@@ -7850,7 +8169,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sceye.com/"
     },
     {
@@ -7880,7 +8202,10 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://technosylva.com/"
     },
     {
@@ -7899,7 +8224,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -7916,7 +8244,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.terraspacelab.com/"
     },
     {
@@ -7931,7 +8262,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.treeswift.com/"
     },
     {
@@ -7948,7 +8282,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.umgrauemeio.com/"
     },
     {
@@ -7978,7 +8315,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://wildfires.org/"
     },
     {
@@ -8008,7 +8347,9 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://zirkarta.wordpress.com/"
     },
     {
@@ -8023,6 +8364,134 @@ const mapping = {
       "tech": NaN,
       "distribution": NaN,
       "website": NaN
+    }
+  ],
+  "search and rescue": [
+    {
+      "name": "Avy",
+      "description": "For situational awareness that helps fire brigades and other emergency services in their effective response to incidents.",
+      "themes": [
+        "FireTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Search and rescue"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://avy.eu/"
+    },
+    {
+      "name": "Bia5",
+      "description": "BIA5 leverages a strong track-record in cutting-edge design, engineering, manufacturing, installation and maintenance of robotics and command and control information technology solutions.",
+      "themes": [
+        "FireTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Search and rescue"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://bia5.com/"
+    },
+    {
+      "name": "Genasys",
+      "description": "Genasys Protective Communications Solutions have a diverse range of applications, including predictive simulation to anticipate and understand the potential impact of emerging crises; emergency warning and mass notification for public safety; critical event management for commercial enterprises and government agencies; de-escalation for defense and law enforcement; as well as automatic detection of real-time threats like active shooters and severe weather.",
+      "themes": [
+        "FireTech",
+        " Disaster Response",
+        " Disaster Response",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Early-warning systems",
+        " \nOperational Recovery",
+        " Search and rescue"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://genasys.com/"
+    },
+    {
+      "name": "Qwake Technologies",
+      "description": "Visual Communication and Navigation for Firefighters",
+      "themes": [
+        "FireTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Search and rescue"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.qwake.tech/"
+    },
+    {
+      "name": "Saif seas",
+      "description": "Automated, remote-controllable life saving water equipment",
+      "themes": [
+        "Disaster Response"
+      ],
+      "subthemes": [
+        "Search and rescue"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://saifseas.com/"
+    },
+    {
+      "name": "Sightbit",
+      "description": "SightBit is an AI management platform for data-powered water management. SightBit software analyzes video feed from waterfront cameras to detect and alert to risks and hazards in order to protect safety and security in all water environments.",
+      "themes": [
+        "Disaster Response",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Search and rescue",
+        " Security"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://sightbit.com/"
+    },
+    {
+      "name": "Zirkarta",
+      "description": "Collaborate and share information with anybody, anywhere, in real-time to empower more informed, agile and safer management of emergencies",
+      "themes": [
+        "FireTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Search and rescue"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://zirkarta.wordpress.com/"
     }
   ],
   "early-warning systems": [
@@ -8040,7 +8509,10 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://climasens.com/"
     },
     {
@@ -8063,7 +8535,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -8082,7 +8557,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://genasys.com/"
     },
     {
@@ -8137,7 +8615,9 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://marinelabs.io/"
     },
     {
@@ -8156,7 +8636,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sadeemwss.com/"
     },
     {
@@ -8175,7 +8658,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.sceye.com/"
     },
     {
@@ -8188,7 +8674,9 @@ const mapping = {
         "Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tempoquest.com/"
     },
     {
@@ -8207,7 +8695,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -8228,6 +8719,762 @@ const mapping = {
       "website": "https://vassarlabs.com/aquawise.html"
     }
   ],
+  "community resilience": [
+    {
+      "name": "Aethon Aerial Solutions",
+      "description": "Aethon Aerial (Aethon) enables 21st century utility asset management by providing utilities with critical asset health information and analysis through remotely captured data.",
+      "themes": [
+        "FireTech",
+        " Land Management",
+        " \"Energy\n\""
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Forests\n",
+        " Resilient infrastructure"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.aethonaerial.com/"
+    },
+    {
+      "name": "Aquipor",
+      "description": "AquiPor\u2019s permeable concrete technology not only manages stormwater naturally, but our material utilizes an inherently low-carbon cement that requires a fraction of the energy and emits a fraction of the CO2 than that of traditional concrete.",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2government"
+      ],
+      "website": "https://aquipor.com/"
+    },
+    {
+      "name": "Bufferblock",
+      "description": "The Bufferblock is a solution for stormwater drainage and buffering in the urban area. The function is similar to that of infiltration crates, but because of the high strength a much thinner top layer is needed. This results in a less deep installation depth, higher buffering capacities and a more cost-effective solution.",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2government"
+      ],
+      "website": "https://www.bufferblock.nl/en/home/"
+    },
+    {
+      "name": "Buzz Solutions",
+      "description": "Efficient  Infrastructure Inspections with the most accurate AI",
+      "themes": [
+        "\"Energy\n\"",
+        " FireTech"
+      ],
+      "subthemes": [
+        "Resilient infrastructure",
+        " Community resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.buzzsolutions.co/"
+    },
+    {
+      "name": "Fathom",
+      "description": "Global leader in flood and climate risk",
+      "themes": [
+        "FloodTech",
+        " FloodTech",
+        " Disaster Response",
+        " Disaster Response",
+        " FireTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Community Resilience",
+        " Early-warning systems",
+        " Damage Assessment",
+        " Community resilience",
+        " Digital twin\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.fathom.global/"
+    },
+    {
+      "name": "Fire Aside",
+      "description": "Fire Aside is the platform that helps communities adapt to wildfire.",
+      "themes": [
+        "FireTech"
+      ],
+      "subthemes": [
+        "Community resilience"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.fireaside.com/"
+    },
+    {
+      "name": "Firemaps",
+      "description": "Get professional home hardening and defensible space work without the hassle.",
+      "themes": [
+        "FireTech"
+      ],
+      "subthemes": [
+        "Community resilience"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2c",
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.firemaps.com/"
+    },
+    {
+      "name": "Flaim Systems",
+      "description": "Fully immersive VR learning solutions for training in hazardous and emergency situations",
+      "themes": [
+        "FireTech",
+        " Labour"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Training"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://flaimsystems.com/"
+    },
+    {
+      "name": "Flood-con",
+      "description": "Flood-Con, LLC is an automated stormwater management company that provides cutting edge technology through its proprietary products and engineering services.",
+      "themes": [
+        "FloodTech",
+        " FloodTech",
+        " FloodTech"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Community Resilience",
+        " Response"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://flood-con.com/"
+    },
+    {
+      "name": "FloodFrame",
+      "description": "FloodFrame is the simple, effective solution that safeguards your home from flood damage.",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://floodframe.com/en/"
+    },
+    {
+      "name": "Frontline Wildfire Defense",
+      "description": "Frontline Wildfire Defense is on a mission to provide faster, safer, more precise ways to protect homes, families, and communities from wildfire.",
+      "themes": [
+        "FireTech"
+      ],
+      "subthemes": [
+        "Community resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://www.frontlinewildfire.com/"
+    },
+    {
+      "name": "Genasys",
+      "description": "Genasys Protective Communications Solutions have a diverse range of applications, including predictive simulation to anticipate and understand the potential impact of emerging crises; emergency warning and mass notification for public safety; critical event management for commercial enterprises and government agencies; de-escalation for defense and law enforcement; as well as automatic detection of real-time threats like active shooters and severe weather.",
+      "themes": [
+        "FireTech",
+        " Disaster Response",
+        " Disaster Response",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Early-warning systems",
+        " \nOperational Recovery",
+        " Search and rescue"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://genasys.com/"
+    },
+    {
+      "name": "Genasys",
+      "description": "Genasys\u2122 is a global provider of critical communications systems and solutions to help keep people safe. Genasys provides a multi-channel approach to deliver geo-targeted alerts, notifications, instructions and information before, during and after public safety threats and critical business events.",
+      "themes": [
+        "FireTech",
+        " FireTech",
+        " Disaster Response",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Detection and Suppression",
+        " \nOperational Recovery",
+        " Early-warning systems"
+      ],
+      "tech": NaN,
+      "distribution": NaN,
+      "website": "https://genasys.com/"
+    },
+    {
+      "name": "ISeeChange",
+      "description": "Your observations and block-by-block insights can help cities, engineers and local organizations advocate for and create solutions to climate challenges.",
+      "themes": [
+        "FireTech",
+        " FloodTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Community Resilience",
+        " Data production"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.iseechange.com/getting-started"
+    },
+    {
+      "name": "Kind designs",
+      "description": "Kind Designs uses 3D-Printing technology to print Living Seawalls that mimic coral reefs and mangroves, hosting biodiversity and improving the quality of water.",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.kinddesigns.org/"
+    },
+    {
+      "name": "Manhole Metrics",
+      "description": "We are a multi-award winning sensor and analytics start-up on a mission to stop flooding and bring wastewater into the 21st Century.",
+      "themes": [
+        "FloodTech",
+        " FloodTech"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Community Resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.manholemetrics.com/"
+    },
+    {
+      "name": "MastreForest",
+      "description": "Tech-led reforestation at no cost to landowners.",
+      "themes": [
+        "Land Management",
+        " FireTech",
+        " FireTech"
+      ],
+      "subthemes": [
+        "Forests\n",
+        " Fuel management",
+        " Community resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.mastreforest.com/"
+    },
+    {
+      "name": "Open Plains",
+      "description": "Providing communities with the best decision-making tools today for a climate-resilient tomorrow",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://openplains.com/"
+    },
+    {
+      "name": "Opti",
+      "description": "Optimizing Stormwater Management",
+      "themes": [
+        "FloodTech",
+        " FloodTech"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Community Resilience"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2government"
+      ],
+      "website": "https://optirtc.com/"
+    },
+    {
+      "name": "Ounce",
+      "description": "Ounce is on a mission to empower healthy and thriving communities by building bridges between housing and health.",
+      "themes": [
+        "ClimateHealthTech",
+        " ClimateHealthTech",
+        " FloodTech",
+        " FireTech",
+        " PropTech",
+        " Community Resilience"
+      ],
+      "subthemes": [
+        "Mental Health",
+        " Respiratory disease - worsened by air pollution",
+        " allergens",
+        " Community Resilience",
+        " Community resilience",
+        " Resilient Homes",
+        " General"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.ounceofcare.com/"
+    },
+    {
+      "name": "Raingrid",
+      "description": "RainGrid\u2019s globally recognized mission is to build a neural networked rain harvesting utility capacity, that supports smart OneWater circular economy for watershed protection, flood and drought resilience, and fiscal security of the water infrastructure.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " FloodTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Distribution",
+        " Community Resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
+      "website": "https://www.raingrid.com/"
+    },
+    {
+      "name": "Sceye",
+      "description": "Sceye is building the world\u2019s most advanced, high-altitude platforms. Robust, versatile and solar-powered, they operate in the stratosphere at 65,000 feet. From here, they can deliver super-fast internet directly to device and high-resolution imagery of the Earth in real time.",
+      "themes": [
+        "FireTech",
+        " Disaster Response",
+        " Disaster Response",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " \nOperational Recovery",
+        " Early-warning systems",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.sceye.com/"
+    },
+    {
+      "name": "StormHarvester",
+      "description": "Automated Control of Waste Water networks to reduce Combined Sewer Overflows and Flooding",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://stormharvester.com/about-stormharvester/"
+    },
+    {
+      "name": "StormSensor",
+      "description": "A climate technology company working with cities to map how water moves through sewer, storm, and coastal systems",
+      "themes": [
+        "FloodTech",
+        " FloodTech"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Community Resilience"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.linkedin.com/company/stormsensor/"
+    },
+    {
+      "name": "Technosylva",
+      "description": "Technosylva is the leading provider of wildfire risk mitigation solutions protecting communities and assets from the devastating effects of wildfires.",
+      "themes": [
+        "FireTech",
+        " FireTech",
+        " FireTech"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Fuel management",
+        " Community resilience"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://technosylva.com/"
+    },
+    {
+      "name": "TrueFloodRisk",
+      "description": "Access global climate risk analytics & flood risk mitigation insights developed for resilience experts, floodplain managers, insurers, property owners & renters",
+      "themes": [
+        "FloodTech",
+        " Insurance"
+      ],
+      "subthemes": [
+        "Community Resilience",
+        " Assessment"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://truefloodrisk.com/#/solutions"
+    },
+    {
+      "name": "climaguard",
+      "description": "Made with a military-grade, waterproof, snow-proof, recyclable material, ClimaGuard is the preferred tool of choice for flood and extreme weather protection.",
+      "themes": [
+        "FloodTech"
+      ],
+      "subthemes": [
+        "Community Resilience"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2c",
+        "b2b"
+      ],
+      "website": "https://www.climaguard.co/#:~:text=Meet%20ClimaGuard,every%20season%20of%20the%20year."
+    }
+  ],
+  "fuel management": [
+    {
+      "name": "Burnbot",
+      "description": "BurnBot provides systematic fuels treatment services to prevent destructive wildfires",
+      "themes": [
+        "FireTech"
+      ],
+      "subthemes": [
+        "Fuel management"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://burnbot.com/"
+    },
+    {
+      "name": "Gridware",
+      "description": "At Gridware, we collaborate with utility companies to enhance existing grid assets with cutting-edge technology.",
+      "themes": [
+        "FireTech",
+        " FireTech"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Detection and Suppression"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.gridware.io/"
+    },
+    {
+      "name": "Instinct",
+      "description": "Instinct\\'s environmental telemetry platform is the one-stop-shop for all environmental data needs for natural resource management industries",
+      "themes": [
+        "FireTech",
+        " Land Management",
+        " Climate Intelligence",
+        " FireTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n",
+        " Data production",
+        " Detection and Suppression",
+        " Analytics\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://instinctenvironmental.com/"
+    },
+    {
+      "name": "Kodama",
+      "description": "We are developing a full-stack, technology-driven forest restoration service to address these challenges.",
+      "themes": [
+        "FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://kodama.ai/faqs"
+    },
+    {
+      "name": "MastreForest",
+      "description": "Tech-led reforestation at no cost to landowners.",
+      "themes": [
+        "Land Management",
+        " FireTech",
+        " FireTech"
+      ],
+      "subthemes": [
+        "Forests\n",
+        " Fuel management",
+        " Community resilience"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.mastreforest.com/"
+    },
+    {
+      "name": "OroraTech",
+      "description": "OroraTech offers the first global wildfire intelligence solution, including risk assessment, early detection, real-time monitoring, and damage analysis with data from 20+ satellites.",
+      "themes": [
+        "FireTech",
+        " FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://ororatech.com/technology/"
+    },
+    {
+      "name": "Overstory",
+      "description": "Vegetation is the single greatest contributor to power outages and wildfires caused by our electric grid. Overstory provides utilities with visibility, risk analysis, and optimization recommendations for vegetation management throughout your entire service territory. It does this by applying artificial intelligence to satellite imagery.",
+      "themes": [
+        "FireTech",
+        " \"Energy\n\""
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Resilient infrastructure"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.overstory.com/"
+    },
+    {
+      "name": "Quiron",
+      "description": "CONTINUOUS MONITORING SOLUTIONS FOR FOREST CONSERVATION AND PRODUCTIVITY",
+      "themes": [
+        "FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://quiron.digital/en/"
+    },
+    {
+      "name": "Technosylva",
+      "description": "Technosylva is the leading provider of wildfire risk mitigation solutions protecting communities and assets from the devastating effects of wildfires.",
+      "themes": [
+        "FireTech",
+        " FireTech",
+        " FireTech"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Fuel management",
+        " Community resilience"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://technosylva.com/"
+    },
+    {
+      "name": "Terraspace Lab",
+      "description": "Global space-based multispectral environmental monitoring of vast areas at a high revisit time",
+      "themes": [
+        "FireTech",
+        " FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Detection and Suppression",
+        " Forests\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.terraspacelab.com/"
+    },
+    {
+      "name": "Treeswift",
+      "description": "Treeswift makes forests easier to manage by providing actionable, reliable, and trustworthy data on every tree.",
+      "themes": [
+        "FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.treeswift.com/"
+    },
+    {
+      "name": "Um Grau e meio",
+      "description": "Forestry management and fire detection",
+      "themes": [
+        "FireTech",
+        " FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.umgrauemeio.com/"
+    },
+    {
+      "name": "VibrantPlanet",
+      "description": "The common operating picture for achieving wildfire and climate resilience.",
+      "themes": [
+        "FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.vibrantplanet.net/"
+    },
+    {
+      "name": "Wildfires.org",
+      "description": "We build digital tools to accelerate state & federal agencies in planning & implementing fuel treatment across their land.",
+      "themes": [
+        "FireTech",
+        " Land Management"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://wildfires.org/"
+    }
+  ],
   "detection and suppression": [
     {
       "name": "Atira Systems",
@@ -8239,7 +9486,9 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.atirasystems.com/"
     },
     {
@@ -8256,7 +9505,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://attentistechnology.com/"
     },
     {
@@ -8271,7 +9523,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://avy.eu/"
     },
     {
@@ -8286,7 +9541,10 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://bia5.com/"
     },
     {
@@ -8303,7 +9561,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.dryad.net/"
     },
     {
@@ -8316,7 +9577,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.eversense-sps.com/"
     },
     {
@@ -8329,7 +9593,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.exci.ai/how-it-works/"
     },
     {
@@ -8342,7 +9609,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://fireballit.com/"
     },
     {
@@ -8376,7 +9646,9 @@ const mapping = {
         " Detection and Suppression"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.gridware.io/"
     },
     {
@@ -8391,7 +9663,10 @@ const mapping = {
         " Detection and Suppression"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iceye.com/"
     },
     {
@@ -8408,7 +9683,9 @@ const mapping = {
         " Security"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.insightrobotics.com/en/"
     },
     {
@@ -8429,7 +9706,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -8442,7 +9722,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.intterragroup.com/"
     },
     {
@@ -8459,7 +9742,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://ororatech.com/technology/"
     },
     {
@@ -8472,7 +9758,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.pano.ai/"
     },
     {
@@ -8485,7 +9774,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://perimeterplatform.com/product/"
     },
     {
@@ -8500,7 +9792,9 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.qwake.tech/"
     },
     {
@@ -8513,7 +9807,10 @@ const mapping = {
         "Detection and Suppression"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.rain.aero/"
     },
     {
@@ -8528,7 +9825,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://roboticscats.com/"
     },
     {
@@ -8558,7 +9857,10 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://technosylva.com/"
     },
     {
@@ -8577,7 +9879,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -8594,7 +9899,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.terraspacelab.com/"
     },
     {
@@ -8611,7 +9919,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.umgrauemeio.com/"
     },
     {
@@ -8641,7 +9952,9 @@ const mapping = {
         " Search and rescue"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://zirkarta.wordpress.com/"
     },
     {
@@ -8656,232 +9969,6 @@ const mapping = {
       "tech": NaN,
       "distribution": NaN,
       "website": NaN
-    }
-  ],
-  "fuel management": [
-    {
-      "name": "Burnbot",
-      "description": "BurnBot provides systematic fuels treatment services to prevent destructive wildfires",
-      "themes": [
-        "FireTech"
-      ],
-      "subthemes": [
-        "Fuel management"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://burnbot.com/"
-    },
-    {
-      "name": "Gridware",
-      "description": "At Gridware, we collaborate with utility companies to enhance existing grid assets with cutting-edge technology.",
-      "themes": [
-        "FireTech",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Detection and Suppression"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.gridware.io/"
-    },
-    {
-      "name": "Instinct",
-      "description": "Instinct\\'s environmental telemetry platform is the one-stop-shop for all environmental data needs for natural resource management industries",
-      "themes": [
-        "FireTech",
-        " Land Management",
-        " Climate Intelligence",
-        " FireTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n",
-        " Data production",
-        " Detection and Suppression",
-        " Analytics\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://instinctenvironmental.com/"
-    },
-    {
-      "name": "Kodama",
-      "description": "We are developing a full-stack, technology-driven forest restoration service to address these challenges.",
-      "themes": [
-        "FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://kodama.ai/faqs"
-    },
-    {
-      "name": "MastreForest",
-      "description": "Tech-led reforestation at no cost to landowners.",
-      "themes": [
-        "Land Management",
-        " FireTech",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Forests\n",
-        " Fuel management",
-        " Community resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.mastreforest.com/"
-    },
-    {
-      "name": "OroraTech",
-      "description": "OroraTech offers the first global wildfire intelligence solution, including risk assessment, early detection, real-time monitoring, and damage analysis with data from 20+ satellites.",
-      "themes": [
-        "FireTech",
-        " FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://ororatech.com/technology/"
-    },
-    {
-      "name": "Overstory",
-      "description": "Vegetation is the single greatest contributor to power outages and wildfires caused by our electric grid. Overstory provides utilities with visibility, risk analysis, and optimization recommendations for vegetation management throughout your entire service territory. It does this by applying artificial intelligence to satellite imagery.",
-      "themes": [
-        "FireTech",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Resilient infrastructure"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.overstory.com/"
-    },
-    {
-      "name": "Quiron",
-      "description": "CONTINUOUS MONITORING SOLUTIONS FOR FOREST CONSERVATION AND PRODUCTIVITY",
-      "themes": [
-        "FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://quiron.digital/en/"
-    },
-    {
-      "name": "Technosylva",
-      "description": "Technosylva is the leading provider of wildfire risk mitigation solutions protecting communities and assets from the devastating effects of wildfires.",
-      "themes": [
-        "FireTech",
-        " FireTech",
-        " FireTech"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Fuel management",
-        " Community resilience"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://technosylva.com/"
-    },
-    {
-      "name": "Terraspace Lab",
-      "description": "Global space-based multispectral environmental monitoring of vast areas at a high revisit time",
-      "themes": [
-        "FireTech",
-        " FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Detection and Suppression",
-        " Forests\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.terraspacelab.com/"
-    },
-    {
-      "name": "Treeswift",
-      "description": "Treeswift makes forests easier to manage by providing actionable, reliable, and trustworthy data on every tree.",
-      "themes": [
-        "FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.treeswift.com/"
-    },
-    {
-      "name": "Um Grau e meio",
-      "description": "Forestry management and fire detection",
-      "themes": [
-        "FireTech",
-        " FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.umgrauemeio.com/"
-    },
-    {
-      "name": "VibrantPlanet",
-      "description": "The common operating picture for achieving wildfire and climate resilience.",
-      "themes": [
-        "FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.vibrantplanet.net/"
-    },
-    {
-      "name": "Wildfires.org",
-      "description": "We build digital tools to accelerate state & federal agencies in planning & implementing fuel treatment across their land.",
-      "themes": [
-        "FireTech",
-        " Land Management"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://wildfires.org/"
     }
   ],
   "land management": [
@@ -8899,7 +9986,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aethonaerial.com/"
     },
     {
@@ -8916,7 +10005,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.dryad.net/"
     },
     {
@@ -8933,7 +10025,9 @@ const mapping = {
         " Security"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.insightrobotics.com/en/"
     },
     {
@@ -8954,7 +10048,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -8969,7 +10066,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kodama.ai/faqs"
     },
     {
@@ -8986,7 +10085,9 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mastreforest.com/"
     },
     {
@@ -9003,7 +10104,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://ororatech.com/technology/"
     },
     {
@@ -9018,7 +10122,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://quiron.digital/en/"
     },
     {
@@ -9033,7 +10139,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sandtogreen.com/en"
     },
     {
@@ -9048,7 +10156,10 @@ const mapping = {
         " Security"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sightbit.com/"
     },
     {
@@ -9065,7 +10176,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.terraspacelab.com/"
     },
     {
@@ -9082,7 +10196,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tesselo.com/"
     },
     {
@@ -9097,7 +10213,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.treeswift.com/"
     },
     {
@@ -9114,7 +10233,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.umgrauemeio.com/"
     },
     {
@@ -9133,7 +10255,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -9163,7 +10288,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://wildfires.org/"
     }
   ],
@@ -9182,7 +10309,9 @@ const mapping = {
         " Resilient infrastructure"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aethonaerial.com/"
     },
     {
@@ -9199,7 +10328,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.dryad.net/"
     },
     {
@@ -9220,7 +10352,10 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://instinctenvironmental.com/"
     },
     {
@@ -9235,7 +10370,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kodama.ai/faqs"
     },
     {
@@ -9252,7 +10389,9 @@ const mapping = {
         " Community resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mastreforest.com/"
     },
     {
@@ -9269,7 +10408,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://ororatech.com/technology/"
     },
     {
@@ -9284,7 +10426,9 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://quiron.digital/en/"
     },
     {
@@ -9299,7 +10443,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sandtogreen.com/en"
     },
     {
@@ -9316,7 +10462,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.terraspacelab.com/"
     },
     {
@@ -9333,7 +10482,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tesselo.com/"
     },
     {
@@ -9348,7 +10499,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.treeswift.com/"
     },
     {
@@ -9365,7 +10519,10 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.umgrauemeio.com/"
     },
     {
@@ -9384,7 +10541,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -9414,8 +10574,27 @@ const mapping = {
         " Forests\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://wildfires.org/"
+    }
+  ],
+  "automation": [
+    {
+      "name": "Universal Field Robots",
+      "description": "UNIVERSAL FIELD ROBOTS WAS FOUNDED TO BRING TO MARKET FULLY-AUTONOMOUS ROBOTS WITH INDUSTRIAL-SCALE CAPABILITIES.",
+      "themes": [
+        "Labour"
+      ],
+      "subthemes": [
+        "Automation"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://universalfieldrobots.com.au/about/"
     }
   ],
   "labour": [
@@ -9431,7 +10610,10 @@ const mapping = {
         " Animal/Feed/Health Management"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://delosaqua.com/"
     },
     {
@@ -9446,7 +10628,10 @@ const mapping = {
         " Training"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://flaimsystems.com/"
     },
     {
@@ -9459,23 +10644,369 @@ const mapping = {
         "Automation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://universalfieldrobots.com.au/about/"
     }
   ],
-  "automation": [
+  "data production": [
     {
-      "name": "Universal Field Robots",
-      "description": "UNIVERSAL FIELD ROBOTS WAS FOUNDED TO BRING TO MARKET FULLY-AUTONOMOUS ROBOTS WITH INDUSTRIAL-SCALE CAPABILITIES.",
+      "name": "Albedo",
+      "description": "10-centimeter resolution optical images to commercial customers at historically low costs",
       "themes": [
-        "Labour"
+        "Climate Intelligence",
+        " Climate Intelligence"
       ],
       "subthemes": [
-        "Automation"
+        "Data production",
+        " Satelites"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://albedo.com/"
+    },
+    {
+      "name": "Amini",
+      "description": "Amini is on a mission to build the environmental data infrastructure for Africa. The company intends to achieve this by launching an in-house constellation of IOT integrated nano-satellites in order to provide immutable, real-time & low-cost actionable data.\n",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.amini.ai/"
+    },
+    {
+      "name": "Attentis Technology",
+      "description": "A sophisticated range of intelligent sensors that deliver 24-hour environmental intelligence, streamed through our high-speed networks.",
+      "themes": [
+        "FireTech",
+        " FloodTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Monitoring and Detection",
+        " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://universalfieldrobots.com.au/about/"
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://attentistechnology.com/"
+    },
+    {
+      "name": "Constellr",
+      "description": "At constellr, we are using cutting-edge beyond-visual imaging technology to revolutionise the way we assess crucial aspects of our planet\\'s health. With temperature readings, we are able to monitor vegetation, soil health, and derive insights insights on water and carbon as well as monitor industrial activities with an unprecedented level of accuracy.",
+      "themes": [
+        "Climate Intelligence",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production",
+        " Risk analysis"
+      ],
+      "tech": NaN,
+      "distribution": NaN,
+      "website": "https://www.constellr.com/"
+    },
+    {
+      "name": "Dryad Networks",
+      "description": "",
+      "themes": [
+        "FireTech",
+        " Land Management",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Forests\n",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.dryad.net/"
+    },
+    {
+      "name": "Hayden AI",
+      "description": "A mobile perception platform that goes beyond automated traffic enforcement.",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.hayden.ai/"
+    },
+    {
+      "name": "Hohonu",
+      "description": "IoT devices for monitoring and predicting coastal sea level",
+      "themes": [
+        "FloodTech",
+        " FloodTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Response",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.hohonu.io/"
+    },
+    {
+      "name": "Hydrosat",
+      "description": "Infrared enabled analytics for agriculture and water management (as well as general climate data).",
+      "themes": [
+        "Climate Intelligence",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Data production",
+        " Analytics\n"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.hydrosat.com/"
+    },
+    {
+      "name": "ISeeChange",
+      "description": "Your observations and block-by-block insights can help cities, engineers and local organizations advocate for and create solutions to climate challenges.",
+      "themes": [
+        "FireTech",
+        " FloodTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " Community Resilience",
+        " Data production"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.iseechange.com/getting-started"
+    },
+    {
+      "name": "Instinct",
+      "description": "Instinct\\'s environmental telemetry platform is the one-stop-shop for all environmental data needs for natural resource management industries",
+      "themes": [
+        "FireTech",
+        " Land Management",
+        " Climate Intelligence",
+        " FireTech",
+        " AgriTech"
+      ],
+      "subthemes": [
+        "Fuel management",
+        " Forests\n",
+        " Data production",
+        " Detection and Suppression",
+        " Analytics\n"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://instinctenvironmental.com/"
+    },
+    {
+      "name": "Near Space Labs",
+      "description": "Near Space Labs actively provides timely, scalable, 10 cm imagery with the largest fleet of zero-emission, stratospheric robots in the world.\n\n",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://nearspacelabs.com/"
+    },
+    {
+      "name": "Planet",
+      "description": "Drawing on observations from Planet\u2019s satellites and the broader Earth observation ecosystem, Planetary Variables deliver continuous, scientifically rigorous data that measures the changing conditions of the surface of the Earth.",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.planet.com/products/planetary-variables/"
+    },
+    {
+      "name": "Sadeem",
+      "description": "Sadeem\u2019s innovative technologies provide wireless sensing systems that help cities monitor flood, traffic, and stormwater drainage network to mitigate the flood risks.",
+      "themes": [
+        "FloodTech",
+        " FloodTech",
+        " Disaster Response",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Response",
+        " Early-warning systems",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://sadeemwss.com/"
+    },
+    {
+      "name": "Sceye",
+      "description": "Sceye is building the world\u2019s most advanced, high-altitude platforms. Robust, versatile and solar-powered, they operate in the stratosphere at 65,000 feet. From here, they can deliver super-fast internet directly to device and high-resolution imagery of the Earth in real time.",
+      "themes": [
+        "FireTech",
+        " Disaster Response",
+        " Disaster Response",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Community resilience",
+        " \nOperational Recovery",
+        " Early-warning systems",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.sceye.com/"
+    },
+    {
+      "name": "Sparrow Analytics",
+      "description": "Air pollution data collection",
+      "themes": [
+        "ClimateHealthTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Air Pollution",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://sparrow.city/"
+    },
+    {
+      "name": "Spire",
+      "description": "The world\u2019s largest multipurpose satellite constellation powers your business through radio frequency providing previously unattainable knowledge and insights about Earth from the ultimate vantage point of space.",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://spire.com/"
+    },
+    {
+      "name": "Syrenna",
+      "description": "Syrenna collects, processes and visualises data from our WaterDrones, providing underwater intelligence to the world. We open the ocean space to everyone, enabling real time science-based decisions.",
+      "themes": [
+        "Climate Intelligence",
+        " OceanTech"
+      ],
+      "subthemes": [
+        "Data production",
+        " Drones"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.syrenna.com/"
+    },
+    {
+      "name": "Tenevia",
+      "description": "Measuring, monitoring and forecasting solutions and services for environmental information. Suite of services for sensing, monitoring, forecasting etc.",
+      "themes": [
+        "FloodTech",
+        " FireTech",
+        " Disaster Response",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Monitoring and Detection",
+        " Detection and Suppression",
+        " Early-warning systems",
+        " Data production"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.tenevia.com/en/"
+    },
+    {
+      "name": "Urban sky",
+      "description": "Stratosphere balloons for earth observation",
+      "themes": [
+        "Climate Intelligence"
+      ],
+      "subthemes": [
+        "Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.urbansky.com/"
+    },
+    {
+      "name": "Windborne Systems",
+      "description": "Weather ballons",
+      "themes": [
+        "FireTech",
+        " Climate Intelligence"
+      ],
+      "subthemes": [
+        "Detection and Suppression",
+        " Data production"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://windbornesystems.com/"
     }
   ],
   "floodtech": [
@@ -9489,7 +11020,9 @@ const mapping = {
         "Community Resilience"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://aquipor.com/"
     },
     {
@@ -9506,7 +11039,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://attentistechnology.com/"
     },
     {
@@ -9519,7 +11055,9 @@ const mapping = {
         "Community Resilience"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://www.bufferblock.nl/en/home/"
     },
     {
@@ -9532,7 +11070,10 @@ const mapping = {
         "Monitoring and Detection"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.divirod.com/"
     },
     {
@@ -9555,7 +11096,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -9572,7 +11116,10 @@ const mapping = {
         " Response"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://flood-con.com/"
     },
     {
@@ -9632,7 +11179,11 @@ const mapping = {
         " Response"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.greenstream.com/"
     },
     {
@@ -9649,7 +11200,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hohonu.io/"
     },
     {
@@ -9666,7 +11220,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iseechange.com/getting-started"
     },
     {
@@ -9681,7 +11238,10 @@ const mapping = {
         " Detection and Suppression"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iceye.com/"
     },
     {
@@ -9694,7 +11254,10 @@ const mapping = {
         "Community Resilience"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.kinddesigns.org/"
     },
     {
@@ -9709,7 +11272,10 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.manholemetrics.com/"
     },
     {
@@ -9722,7 +11288,10 @@ const mapping = {
         "Community Resilience"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://openplains.com/"
     },
     {
@@ -9737,7 +11306,9 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Software",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://optirtc.com/"
     },
     {
@@ -9761,7 +11332,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     },
     {
@@ -9776,7 +11349,10 @@ const mapping = {
         " Response"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://previsico.com/"
     },
     {
@@ -9793,7 +11369,11 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.raingrid.com/"
     },
     {
@@ -9812,7 +11392,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sadeemwss.com/"
     },
     {
@@ -9825,7 +11408,10 @@ const mapping = {
         "Community Resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://stormharvester.com/about-stormharvester/"
     },
     {
@@ -9840,7 +11426,10 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.linkedin.com/company/stormsensor/"
     },
     {
@@ -9859,7 +11448,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -9876,7 +11468,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tesselo.com/"
     },
     {
@@ -9891,7 +11485,9 @@ const mapping = {
         " Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://truefloodrisk.com/#/solutions"
     },
     {
@@ -9910,7 +11506,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -9923,7 +11522,10 @@ const mapping = {
         "Community Resilience"
       ],
       "tech": "Hardware",
-      "distribution": "B2C, B2B",
+      "distribution": [
+        "b2c",
+        "b2b"
+      ],
       "website": "https://www.climaguard.co/#:~:text=Meet%20ClimaGuard,every%20season%20of%20the%20year."
     },
     {
@@ -9944,322 +11546,6 @@ const mapping = {
       "website": "https://vassarlabs.com/aquawise.html"
     }
   ],
-  "data production": [
-    {
-      "name": "Albedo",
-      "description": "10-centimeter resolution optical images to commercial customers at historically low costs",
-      "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production",
-        " Satelites"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://albedo.com/"
-    },
-    {
-      "name": "Amini",
-      "description": "Amini is on a mission to build the environmental data infrastructure for Africa. The company intends to achieve this by launching an in-house constellation of IOT integrated nano-satellites in order to provide immutable, real-time & low-cost actionable data.\n",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B",
-      "website": "https://www.amini.ai/"
-    },
-    {
-      "name": "Attentis Technology",
-      "description": "A sophisticated range of intelligent sensors that deliver 24-hour environmental intelligence, streamed through our high-speed networks.",
-      "themes": [
-        "FireTech",
-        " FloodTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Monitoring and Detection",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://attentistechnology.com/"
-    },
-    {
-      "name": "Constellr",
-      "description": "At constellr, we are using cutting-edge beyond-visual imaging technology to revolutionise the way we assess crucial aspects of our planet\\'s health. With temperature readings, we are able to monitor vegetation, soil health, and derive insights insights on water and carbon as well as monitor industrial activities with an unprecedented level of accuracy.",
-      "themes": [
-        "Climate Intelligence",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production",
-        " Risk analysis"
-      ],
-      "tech": NaN,
-      "distribution": NaN,
-      "website": "https://www.constellr.com/"
-    },
-    {
-      "name": "Dryad Networks",
-      "description": "",
-      "themes": [
-        "FireTech",
-        " Land Management",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Forests\n",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.dryad.net/"
-    },
-    {
-      "name": "Hayden AI",
-      "description": "A mobile perception platform that goes beyond automated traffic enforcement.",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.hayden.ai/"
-    },
-    {
-      "name": "Hohonu",
-      "description": "IoT devices for monitoring and predicting coastal sea level",
-      "themes": [
-        "FloodTech",
-        " FloodTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Response",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.hohonu.io/"
-    },
-    {
-      "name": "Hydrosat",
-      "description": "Infrared enabled analytics for agriculture and water management (as well as general climate data).",
-      "themes": [
-        "Climate Intelligence",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Data production",
-        " Analytics\n"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.hydrosat.com/"
-    },
-    {
-      "name": "ISeeChange",
-      "description": "Your observations and block-by-block insights can help cities, engineers and local organizations advocate for and create solutions to climate challenges.",
-      "themes": [
-        "FireTech",
-        " FloodTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " Community Resilience",
-        " Data production"
-      ],
-      "tech": "Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.iseechange.com/getting-started"
-    },
-    {
-      "name": "Instinct",
-      "description": "Instinct\\'s environmental telemetry platform is the one-stop-shop for all environmental data needs for natural resource management industries",
-      "themes": [
-        "FireTech",
-        " Land Management",
-        " Climate Intelligence",
-        " FireTech",
-        " AgriTech"
-      ],
-      "subthemes": [
-        "Fuel management",
-        " Forests\n",
-        " Data production",
-        " Detection and Suppression",
-        " Analytics\n"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://instinctenvironmental.com/"
-    },
-    {
-      "name": "Near Space Labs",
-      "description": "Near Space Labs actively provides timely, scalable, 10 cm imagery with the largest fleet of zero-emission, stratospheric robots in the world.\n\n",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://nearspacelabs.com/"
-    },
-    {
-      "name": "Planet",
-      "description": "Drawing on observations from Planet\u2019s satellites and the broader Earth observation ecosystem, Planetary Variables deliver continuous, scientifically rigorous data that measures the changing conditions of the surface of the Earth.",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.planet.com/products/planetary-variables/"
-    },
-    {
-      "name": "Sadeem",
-      "description": "Sadeem\u2019s innovative technologies provide wireless sensing systems that help cities monitor flood, traffic, and stormwater drainage network to mitigate the flood risks.",
-      "themes": [
-        "FloodTech",
-        " FloodTech",
-        " Disaster Response",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Response",
-        " Early-warning systems",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://sadeemwss.com/"
-    },
-    {
-      "name": "Sceye",
-      "description": "Sceye is building the world\u2019s most advanced, high-altitude platforms. Robust, versatile and solar-powered, they operate in the stratosphere at 65,000 feet. From here, they can deliver super-fast internet directly to device and high-resolution imagery of the Earth in real time.",
-      "themes": [
-        "FireTech",
-        " Disaster Response",
-        " Disaster Response",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Community resilience",
-        " \nOperational Recovery",
-        " Early-warning systems",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.sceye.com/"
-    },
-    {
-      "name": "Sparrow Analytics",
-      "description": "Air pollution data collection",
-      "themes": [
-        "ClimateHealthTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Air Pollution",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://sparrow.city/"
-    },
-    {
-      "name": "Spire",
-      "description": "The world\u2019s largest multipurpose satellite constellation powers your business through radio frequency providing previously unattainable knowledge and insights about Earth from the ultimate vantage point of space.",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://spire.com/"
-    },
-    {
-      "name": "Syrenna",
-      "description": "Syrenna collects, processes and visualises data from our WaterDrones, providing underwater intelligence to the world. We open the ocean space to everyone, enabling real time science-based decisions.",
-      "themes": [
-        "Climate Intelligence",
-        " OceanTech"
-      ],
-      "subthemes": [
-        "Data production",
-        " Drones"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.syrenna.com/"
-    },
-    {
-      "name": "Tenevia",
-      "description": "Measuring, monitoring and forecasting solutions and services for environmental information. Suite of services for sensing, monitoring, forecasting etc.",
-      "themes": [
-        "FloodTech",
-        " FireTech",
-        " Disaster Response",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Monitoring and Detection",
-        " Detection and Suppression",
-        " Early-warning systems",
-        " Data production"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.tenevia.com/en/"
-    },
-    {
-      "name": "Urban sky",
-      "description": "Stratosphere balloons for earth observation",
-      "themes": [
-        "Climate Intelligence"
-      ],
-      "subthemes": [
-        "Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.urbansky.com/"
-    },
-    {
-      "name": "Windborne Systems",
-      "description": "Weather ballons",
-      "themes": [
-        "FireTech",
-        " Climate Intelligence"
-      ],
-      "subthemes": [
-        "Detection and Suppression",
-        " Data production"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://windbornesystems.com/"
-    }
-  ],
   "monitoring and detection": [
     {
       "name": "Attentis Technology",
@@ -10275,7 +11561,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://attentistechnology.com/"
     },
     {
@@ -10288,7 +11577,10 @@ const mapping = {
         "Monitoring and Detection"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.divirod.com/"
     },
     {
@@ -10311,7 +11603,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -10328,7 +11623,10 @@ const mapping = {
         " Response"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://flood-con.com/"
     },
     {
@@ -10375,7 +11673,11 @@ const mapping = {
         " Response"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.greenstream.com/"
     },
     {
@@ -10392,7 +11694,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hohonu.io/"
     },
     {
@@ -10407,7 +11712,10 @@ const mapping = {
         " Detection and Suppression"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.iceye.com/"
     },
     {
@@ -10422,7 +11730,10 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.manholemetrics.com/"
     },
     {
@@ -10437,7 +11748,9 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Software",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://optirtc.com/"
     },
     {
@@ -10452,7 +11765,10 @@ const mapping = {
         " Response"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://previsico.com/"
     },
     {
@@ -10471,7 +11787,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sadeemwss.com/"
     },
     {
@@ -10486,7 +11805,10 @@ const mapping = {
         " Community Resilience"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.linkedin.com/company/stormsensor/"
     },
     {
@@ -10505,7 +11827,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.tenevia.com/en/"
     },
     {
@@ -10522,7 +11847,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://tesselo.com/"
     },
     {
@@ -10541,7 +11868,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -10575,7 +11905,10 @@ const mapping = {
         " Animal/Feed/Health Management"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://delosaqua.com/"
     },
     {
@@ -10590,7 +11923,10 @@ const mapping = {
         " Training"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://flaimsystems.com/"
     }
   ],
@@ -10609,7 +11945,9 @@ const mapping = {
         " Security"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.insightrobotics.com/en/"
     },
     {
@@ -10624,7 +11962,10 @@ const mapping = {
         " Security"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sightbit.com/"
     }
   ],
@@ -10641,7 +11982,9 @@ const mapping = {
         " Resilient Homes"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bisly.com/"
     },
     {
@@ -10654,7 +11997,10 @@ const mapping = {
         "Resilient Homes"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.mightybuildings.com/"
     },
     {
@@ -10667,7 +12013,9 @@ const mapping = {
         "Resilient Homes"
       ],
       "tech": "Hardware",
-      "distribution": "B2C",
+      "distribution": [
+        "b2c"
+      ],
       "website": "https://naturalspacesdomes.com/"
     },
     {
@@ -10691,7 +12039,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     }
   ],
@@ -10708,7 +12058,9 @@ const mapping = {
         " Resilient Homes"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bisly.com/"
     },
     {
@@ -10721,7 +12073,10 @@ const mapping = {
         "Resilient Homes"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.mightybuildings.com/"
     },
     {
@@ -10734,7 +12089,9 @@ const mapping = {
         "Resilient Homes"
       ],
       "tech": "Hardware",
-      "distribution": "B2C",
+      "distribution": [
+        "b2c"
+      ],
       "website": "https://naturalspacesdomes.com/"
     },
     {
@@ -10758,7 +12115,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     }
   ],
@@ -10778,7 +12137,9 @@ const mapping = {
         " Air Pollution"
       ],
       "tech": "Hardware",
-      "distribution": "B2C",
+      "distribution": [
+        "b2c"
+      ],
       "website": "https://www.airinum.com/"
     },
     {
@@ -10791,7 +12152,9 @@ const mapping = {
         "Air Pollution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.calcalistech.com/ctechnews/article/sycbrdpbi"
     },
     {
@@ -10804,7 +12167,10 @@ const mapping = {
         "Air Pollution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2C, B2B",
+      "distribution": [
+        "b2c",
+        "b2b"
+      ],
       "website": "https://climateorb.com/"
     },
     {
@@ -10819,7 +12185,9 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sparrow.city/"
     }
   ],
@@ -10839,7 +12207,9 @@ const mapping = {
         " Air Pollution"
       ],
       "tech": "Hardware",
-      "distribution": "B2C",
+      "distribution": [
+        "b2c"
+      ],
       "website": "https://www.airinum.com/"
     },
     {
@@ -10856,7 +12226,9 @@ const mapping = {
         " cryptosporidiosis"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://biobot.io/"
     },
     {
@@ -10871,7 +12243,9 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://www.biofilbd.com/"
     },
     {
@@ -10884,7 +12258,9 @@ const mapping = {
         "Air Pollution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.calcalistech.com/ctechnews/article/sycbrdpbi"
     },
     {
@@ -10899,7 +12275,10 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "http://www.change-water.com/"
     },
     {
@@ -10912,7 +12291,10 @@ const mapping = {
         "Air Pollution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2C, B2B",
+      "distribution": [
+        "b2c",
+        "b2b"
+      ],
       "website": "https://climateorb.com/"
     },
     {
@@ -10951,7 +12333,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     },
     {
@@ -10983,7 +12367,9 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sparrow.city/"
     }
   ],
@@ -11000,7 +12386,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.agrobiogel.com/agrobiogel"
     },
     {
@@ -11017,7 +12405,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquaexchange.com/"
     },
     {
@@ -11051,7 +12441,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://athenairtech.com/"
     },
     {
@@ -11083,7 +12475,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.digidrip.eu/en/"
     },
     {
@@ -11098,7 +12492,9 @@ const mapping = {
         " Efficiency"
       ],
       "tech": "Hardware",
-      "distribution": "bb2",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://efpolymer.com/"
     },
     {
@@ -11113,7 +12509,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.eqo.life/solutions"
     },
     {
@@ -11130,7 +12528,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.farmagain.in/"
     },
     {
@@ -11143,7 +12543,9 @@ const mapping = {
         "Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.farmhq.com/"
     },
     {
@@ -11158,7 +12560,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "http://www.flybirdinnovations.com/aboutus.html#whatWeDo"
     },
     {
@@ -11175,7 +12579,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://jala.tech/"
     },
     {
@@ -11190,7 +12596,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://kilimo.com/home-english/"
     },
     {
@@ -11205,7 +12613,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": NaN
     },
     {
@@ -11254,7 +12664,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://rantizo.com/"
     },
     {
@@ -11271,7 +12683,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sensaway.com/"
     },
     {
@@ -11288,7 +12702,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sunculture.io/"
     },
     {
@@ -11307,7 +12723,9 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.treetoscope.com/"
     },
     {
@@ -11337,7 +12755,9 @@ const mapping = {
         " Water Management"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://o2company.live/en/#oportunidad"
     }
   ],
@@ -11354,7 +12774,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.betabugs.uk/"
     },
     {
@@ -11367,7 +12789,9 @@ const mapping = {
         "Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://bonvivant-food.com/en/"
     },
     {
@@ -11388,7 +12812,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://entocycle.com/"
     },
     {
@@ -11405,7 +12831,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mialgae.com/"
     },
     {
@@ -11446,7 +12874,10 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://wandafish.com/"
     }
   ],
@@ -11463,7 +12894,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.betabugs.uk/"
     },
     {
@@ -11476,7 +12909,9 @@ const mapping = {
         "Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://bonvivant-food.com/en/"
     },
     {
@@ -11497,7 +12932,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://entocycle.com/"
     },
     {
@@ -11514,7 +12951,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mialgae.com/"
     },
     {
@@ -11555,7 +12994,10 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://wandafish.com/"
     }
   ],
@@ -11572,7 +13014,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aerobotics.com/"
     },
     {
@@ -11589,7 +13033,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://athenairtech.com/"
     },
     {
@@ -11606,7 +13052,9 @@ const mapping = {
         " Data augmented domain expertise"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ceresimaging.net/"
     },
     {
@@ -11623,7 +13071,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://cropx.com/"
     },
     {
@@ -11640,7 +13090,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.farmagain.in/"
     },
     {
@@ -11689,7 +13141,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://rantizo.com/"
     },
     {
@@ -11704,7 +13158,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sandtogreen.com/en"
     },
     {
@@ -11721,7 +13177,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sensilize.com/"
     },
     {
@@ -11738,7 +13196,9 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sunculture.io/"
     },
     {
@@ -11757,7 +13217,9 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.treetoscope.com/"
     },
     {
@@ -11776,7 +13238,10 @@ const mapping = {
         " Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.upstream.tech/"
     },
     {
@@ -11789,7 +13254,9 @@ const mapping = {
         "Crop/soil protection and enhancement"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://vinsense.net/"
     },
     {
@@ -11806,7 +13273,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://worldfrom.space/what_we_do/agriculture/"
     },
     {
@@ -11836,7 +13305,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ifarming.it/products/?lang=en"
     }
   ],
@@ -11859,7 +13330,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://entocycle.com/"
     },
     {
@@ -11872,7 +13345,10 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.hexagro.io/"
     },
     {
@@ -11885,7 +13361,10 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.kheyti.com/"
     },
     {
@@ -11898,7 +13377,9 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.lettusgrow.com/"
     },
     {
@@ -11915,7 +13396,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mialgae.com/"
     },
     {
@@ -11941,7 +13424,10 @@ const mapping = {
         "Indoor crops"
       ],
       "tech": "Hardware",
-      "distribution": "B2C, B2B",
+      "distribution": [
+        "b2c",
+        "b2b"
+      ],
       "website": "https://www.thecircle.global/products/"
     }
   ],
@@ -11956,7 +13442,10 @@ const mapping = {
         "Microstock\n"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://aspirefg.com/"
     },
     {
@@ -11971,7 +13460,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.betabugs.uk/"
     },
     {
@@ -11984,7 +13475,9 @@ const mapping = {
         "Microstock\n"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.cyns.com.br/"
     },
     {
@@ -12018,7 +13511,9 @@ const mapping = {
         " Alternative nutrition sources"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://entocycle.com/"
     },
     {
@@ -12050,7 +13545,10 @@ const mapping = {
         " Response"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://flood-con.com/"
     },
     {
@@ -12080,7 +13578,11 @@ const mapping = {
         " Response"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.greenstream.com/"
     },
     {
@@ -12097,7 +13599,10 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.hohonu.io/"
     },
     {
@@ -12112,7 +13617,10 @@ const mapping = {
         " Response"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://previsico.com/"
     },
     {
@@ -12131,178 +13639,11 @@ const mapping = {
         " Data production"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://sadeemwss.com/"
-    }
-  ],
-  "distribution": [
-    {
-      "name": "Botanical Water Technologies",
-      "description": "We harvest water that naturally occurs in sugar cane, fruit and vegetable, which is used for the company\\'s own retail brand, AquaBotanical Water. Botanical Water is distributed for retail (AquaBotanical Water), ingredient (for beverage companies) as well as social and environmental impact projects.",
-      "themes": [
-        "WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Extraction & Storage",
-        " Distribution"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2C, B2Government",
-      "website": "https://www.wegrowwater.com/"
-    },
-    {
-      "name": "Epic Clean Tec",
-      "description": "Epic Cleantec is leading the way in sustainable onsite water reuse solutions for the built environment.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Extraction & Storage",
-        " Treatment",
-        " Efficiency",
-        " Distribution"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://epiccleantec.com/"
-    },
-    {
-      "name": "Pallon",
-      "description": "Know the Condition of Your Sewers With the Press of a Button",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Treatment",
-        " Distribution",
-        " Wastewater"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.pallon.com/workflow"
-    },
-    {
-      "name": "Raingrid",
-      "description": "RainGrid\u2019s globally recognized mission is to build a neural networked rain harvesting utility capacity, that supports smart OneWater circular economy for watershed protection, flood and drought resilience, and fiscal security of the water infrastructure.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " FloodTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution",
-        " Community Resilience"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
-      "website": "https://www.raingrid.com/"
-    },
-    {
-      "name": "Smart Water",
-      "description": "The world\\'s 1st fully automated water meter",
-      "themes": [
-        "WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Distribution",
-        " Efficiency"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C, B2Government",
-      "website": "https://smarterhomes.com/"
-    },
-    {
-      "name": "Source",
-      "description": "Make, store, and dispense clean, mineralized water using roof panels",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Extraction & Storage",
-        " Distribution",
-        " \nOperational Recovery"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://www.source.co/"
-    },
-    {
-      "name": "Treetoscope",
-      "description": "Imagine knowing when your crops need water \u2013 and just how much water to achieve their optimal yield. At Treetoscope, we have developed just the solution \u2013 providing unprecedented accuracy in measuring the real-time actual water use of key crops.",
-      "themes": [
-        "AgriTech",
-        " AgriTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Water Management",
-        " Crop/soil protection and enhancement",
-        " Efficiency",
-        " Distribution"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B",
-      "website": "https://www.treetoscope.com/"
-    },
-    {
-      "name": "WEGOT",
-      "description": "WEGoT aqua provides exceptional water data for buildings to manage their water with utmost ease, in real-time.\n\nWEGoT aqua has two components -\n\n1. A high-precision IoT-enabled ultrasonic sensor\n2. Mobile and desktop applications",
-      "themes": [
-        "WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2C",
-      "website": "https://www.wegot.in/"
-    },
-    {
-      "name": "Wota",
-      "description": "Builds product to increase accessibility to water facilities such as storage and sinks",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Treatment",
-        " Distribution",
-        " \nOperational Recovery"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://wota.co.jp/en/"
-    },
-    {
-      "name": "hirayawater",
-      "description": "Water management solutions for developing countries",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Distribution",
-        " Efficiency"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://www.hirayawater.com/rtap"
     }
   ],
   "extraction & storage": [
@@ -12318,7 +13659,11 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2C, B2Government",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
       "website": "https://www.wegrowwater.com/"
     },
     {
@@ -12333,7 +13678,9 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.linkedin.com/company/box-of-rain-water/"
     },
     {
@@ -12352,7 +13699,10 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://epiccleantec.com/"
     },
     {
@@ -12371,7 +13721,9 @@ const mapping = {
         " Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.gradiant.com/solutions-and-industries/"
     },
     {
@@ -12388,7 +13740,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.imageau.com/en/home/"
     },
     {
@@ -12401,7 +13755,9 @@ const mapping = {
         "Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://imhotep.industries/en/"
     },
     {
@@ -12427,7 +13783,10 @@ const mapping = {
         "Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://majikwater.co/"
     },
     {
@@ -12485,7 +13844,10 @@ const mapping = {
         "Extraction & Storage"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.source.co/"
     },
     {
@@ -12502,73 +13864,25 @@ const mapping = {
       "website": "https://www.uravulabs.com/freedom-edition/"
     }
   ],
-  "treatment": [
+  "distribution": [
     {
-      "name": "Aqua Membranes",
-      "description": "Reverse osmosis membrane elements require an excess amount of energy to operate. To address this challenge, Aqua Membranes\u2019 revolutionary design changes use our patented 3D spacers instead of customary mesh spacers.",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://aquamembranes.com/"
-    },
-    {
-      "name": "BlueGreenWaterTech",
-      "description": "BlueGreen is the first and only company in the world to tackle the issue of water safety using a multi-disciplinary, tech-driven approach",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://bluegreenwatertech.com/"
-    },
-    {
-      "name": "Desolenator",
-      "description": "Harnessing abundant sea and sun to produce ultrapure water with zero harmful chemicals.",
+      "name": "Botanical Water Technologies",
+      "description": "We harvest water that naturally occurs in sugar cane, fruit and vegetable, which is used for the company\\'s own retail brand, AquaBotanical Water. Botanical Water is distributed for retail (AquaBotanical Water), ingredient (for beverage companies) as well as social and environmental impact projects.",
       "themes": [
         "WaterTech",
         " WaterTech"
       ],
       "subthemes": [
-        "Desalination",
-        " Treatment"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.desolenator.com/"
-    },
-    {
-      "name": "Drinkwell",
-      "description": "Our technology is embedded within water infrastructure purifying more than 1 million liters of water every day across Bangladesh & India.",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
+        "Extraction & Storage",
+        " Distribution"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government, B2B",
-      "website": "https://drinkwellsystems.com/"
-    },
-    {
-      "name": "ElectraMet",
-      "description": "Removing & Recovering Metal Impurities to Drive Purity & Compliance",
-      "themes": [
-        "WaterTech"
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
       ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://electramet.com/"
+      "website": "https://www.wegrowwater.com/"
     },
     {
       "name": "Epic Clean Tec",
@@ -12586,113 +13900,11 @@ const mapping = {
         " Distribution"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://epiccleantec.com/"
-    },
-    {
-      "name": "Folia Water",
-      "description": "The Folia Water Filter is antimicrobial filter paper containing silver nanoparticles that kill bacteria and viruses and it filters out iron, dirt, and larger parasites.",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.foliawater.com/"
-    },
-    {
-      "name": "Gradiant",
-      "description": "We\u2019re mobilizing the brightest minds to pioneer advanced solutions that squeeze every last drop of value from water.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Treatment",
-        " Efficiency",
-        " Extraction & Storage"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://www.gradiant.com/solutions-and-industries/"
-    },
-    {
-      "name": "Indra",
-      "description": "We make economical, compact & smart water treatment systems for recycling domestic & industrial wastewater for non-potable reuse applications.",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.indrawater.com/home"
-    },
-    {
-      "name": "Island Water Technologies",
-      "description": "We have developed and commercialized products at the intersection of wastewater treatment, data connectivity and renewable energy.",
-      "themes": [
-        "WaterTech",
-        " WaterTech",
-        " WaterTech"
-      ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Treatment",
-        " Wastewater"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://islandwatertech.com/"
-    },
-    {
-      "name": "Leapfrog Design",
-      "description": "Our EstuaryTM and CascadeTM are plant-powered ecological water treatment systems. On the surface, a modern planter box or green wall full of vibrant plants adds beauty to the landscape. Inside, plants and microbes clean water from sinks, showers, and washing machines for reuse in toilet flushing and irrigation.",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2C",
-      "website": "https://www.leapfrog.design/"
-    },
-    {
-      "name": "Offgridbox",
-      "description": "OffGridBox manufactures modules and integrated all-in-one systems to provide solar energy and purified water",
-      "themes": [
-        "WaterTech",
-        " \"Energy\n\"",
-        " \"Energy\n\""
-      ],
-      "subthemes": [
-        "Treatment",
-        " Off-Grid & Back-up Systems",
-        " Resilient infrastructure"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": NaN,
-      "website": "https://www.offgridbox.com/"
-    },
-    {
-      "name": "Openversum",
-      "description": "Openversum is a Swiss enterprise tackling the challenge of safe and affordable drinking water by combining an innovative filtration membrane system with microfranchising",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://openversum.com/"
     },
     {
       "name": "Pallon",
@@ -12708,62 +13920,106 @@ const mapping = {
         " Wastewater"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pallon.com/workflow"
     },
     {
-      "name": "Puraffinity",
-      "description": "Our adsorbents are adaptable to large volume applications, and are designed with a high selectivity and high adsorption capacity, leading to lower footprints, less downtime, lower change-out frequency and attractive lifecycle costs.",
+      "name": "Raingrid",
+      "description": "RainGrid\u2019s globally recognized mission is to build a neural networked rain harvesting utility capacity, that supports smart OneWater circular economy for watershed protection, flood and drought resilience, and fiscal security of the water infrastructure.",
       "themes": [
-        "WaterTech"
+        "WaterTech",
+        " WaterTech",
+        " FloodTech"
       ],
       "subthemes": [
-        "Treatment"
+        "Monitoring & Forecasting",
+        " Distribution",
+        " Community Resilience"
       ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://www.puraffinity.com/"
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
+      "website": "https://www.raingrid.com/"
     },
     {
-      "name": "Swirltex",
-      "description": "Swirltex manages challenging waste streams to produce high-quality permeate at higher throughput, lower energy consumption, and in a broader range of climates. Put simply, Swirltex succeeds in applications where conventional membranes fail.",
-      "themes": [
-        "WaterTech"
-      ],
-      "subthemes": [
-        "Treatment"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://swirltex.com/"
-    },
-    {
-      "name": "Water Lens",
-      "description": "Real-time water testing within 10 minutes",
+      "name": "Smart Water",
+      "description": "The world\\'s 1st fully automated water meter",
       "themes": [
         "WaterTech",
         " WaterTech"
       ],
       "subthemes": [
-        "Treatment",
-        " Monitoring & Forecasting"
+        "Distribution",
+        " Efficiency"
       ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2Government",
-      "website": "https://www.waterlensusa.com/"
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
+      "website": "https://smarterhomes.com/"
     },
     {
-      "name": "Wateroam",
-      "description": "An innovative and easy-to-use community water filtration system strategically designed to meet the needs of rural and remote populations.",
+      "name": "Source",
+      "description": "Make, store, and dispense clean, mineralized water using roof panels",
       "themes": [
-        "WaterTech"
+        "WaterTech",
+        " WaterTech",
+        " Disaster Response"
       ],
       "subthemes": [
-        "Treatment"
+        "Extraction & Storage",
+        " Distribution",
+        " \nOperational Recovery"
       ],
-      "tech": "Hardware",
-      "distribution": "B2B, B2C, B2Government",
-      "website": "https://www.wateroam.com/"
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://www.source.co/"
+    },
+    {
+      "name": "Treetoscope",
+      "description": "Imagine knowing when your crops need water \u2013 and just how much water to achieve their optimal yield. At Treetoscope, we have developed just the solution \u2013 providing unprecedented accuracy in measuring the real-time actual water use of key crops.",
+      "themes": [
+        "AgriTech",
+        " AgriTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Water Management",
+        " Crop/soil protection and enhancement",
+        " Efficiency",
+        " Distribution"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.treetoscope.com/"
+    },
+    {
+      "name": "WEGOT",
+      "description": "WEGoT aqua provides exceptional water data for buildings to manage their water with utmost ease, in real-time.\n\nWEGoT aqua has two components -\n\n1. A high-precision IoT-enabled ultrasonic sensor\n2. Mobile and desktop applications",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Distribution"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://www.wegot.in/"
     },
     {
       "name": "Wota",
@@ -12779,25 +14035,28 @@ const mapping = {
         " \nOperational Recovery"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://wota.co.jp/en/"
     },
     {
-      "name": "absolutewater",
-      "description": "Energy efficient and eco-friendly solutions for solid and liquid waste",
+      "name": "hirayawater",
+      "description": "Water management solutions for developing countries",
       "themes": [
         "WaterTech",
         " WaterTech",
-        " \"Energy\n\""
+        " WaterTech"
       ],
       "subthemes": [
-        "Treatment",
-        " Wastewater",
-        " Resilient infrastructure"
+        "Monitoring & Forecasting",
+        " Distribution",
+        " Efficiency"
       ],
       "tech": "Hardware, Software",
       "distribution": NaN,
-      "website": "absolutewater"
+      "website": "https://www.hirayawater.com/rtap"
     }
   ],
   "wastewater": [
@@ -12815,7 +14074,9 @@ const mapping = {
         " Wastewater"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://islandwatertech.com/"
     },
     {
@@ -12832,7 +14093,9 @@ const mapping = {
         " Wastewater"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pallon.com/workflow"
     },
     {
@@ -12849,7 +14112,9 @@ const mapping = {
         " Monitoring & Forecasting"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pani.global/product"
     },
     {
@@ -12885,6 +14150,348 @@ const mapping = {
       "website": "absolutewater"
     }
   ],
+  "treatment": [
+    {
+      "name": "Aqua Membranes",
+      "description": "Reverse osmosis membrane elements require an excess amount of energy to operate. To address this challenge, Aqua Membranes\u2019 revolutionary design changes use our patented 3D spacers instead of customary mesh spacers.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://aquamembranes.com/"
+    },
+    {
+      "name": "BlueGreenWaterTech",
+      "description": "BlueGreen is the first and only company in the world to tackle the issue of water safety using a multi-disciplinary, tech-driven approach",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://bluegreenwatertech.com/"
+    },
+    {
+      "name": "Desolenator",
+      "description": "Harnessing abundant sea and sun to produce ultrapure water with zero harmful chemicals.",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Desalination",
+        " Treatment"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.desolenator.com/"
+    },
+    {
+      "name": "Drinkwell",
+      "description": "Our technology is embedded within water infrastructure purifying more than 1 million liters of water every day across Bangladesh & India.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2government",
+        "b2b"
+      ],
+      "website": "https://drinkwellsystems.com/"
+    },
+    {
+      "name": "ElectraMet",
+      "description": "Removing & Recovering Metal Impurities to Drive Purity & Compliance",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://electramet.com/"
+    },
+    {
+      "name": "Epic Clean Tec",
+      "description": "Epic Cleantec is leading the way in sustainable onsite water reuse solutions for the built environment.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Extraction & Storage",
+        " Treatment",
+        " Efficiency",
+        " Distribution"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://epiccleantec.com/"
+    },
+    {
+      "name": "Folia Water",
+      "description": "The Folia Water Filter is antimicrobial filter paper containing silver nanoparticles that kill bacteria and viruses and it filters out iron, dirt, and larger parasites.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.foliawater.com/"
+    },
+    {
+      "name": "Gradiant",
+      "description": "We\u2019re mobilizing the brightest minds to pioneer advanced solutions that squeeze every last drop of value from water.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Treatment",
+        " Efficiency",
+        " Extraction & Storage"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.gradiant.com/solutions-and-industries/"
+    },
+    {
+      "name": "Indra",
+      "description": "We make economical, compact & smart water treatment systems for recycling domestic & industrial wastewater for non-potable reuse applications.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.indrawater.com/home"
+    },
+    {
+      "name": "Island Water Technologies",
+      "description": "We have developed and commercialized products at the intersection of wastewater treatment, data connectivity and renewable energy.",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Treatment",
+        " Wastewater"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://islandwatertech.com/"
+    },
+    {
+      "name": "Leapfrog Design",
+      "description": "Our EstuaryTM and CascadeTM are plant-powered ecological water treatment systems. On the surface, a modern planter box or green wall full of vibrant plants adds beauty to the landscape. Inside, plants and microbes clean water from sinks, showers, and washing machines for reuse in toilet flushing and irrigation.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
+      "website": "https://www.leapfrog.design/"
+    },
+    {
+      "name": "Offgridbox",
+      "description": "OffGridBox manufactures modules and integrated all-in-one systems to provide solar energy and purified water",
+      "themes": [
+        "WaterTech",
+        " \"Energy\n\"",
+        " \"Energy\n\""
+      ],
+      "subthemes": [
+        "Treatment",
+        " Off-Grid & Back-up Systems",
+        " Resilient infrastructure"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "https://www.offgridbox.com/"
+    },
+    {
+      "name": "Openversum",
+      "description": "Openversum is a Swiss enterprise tackling the challenge of safe and affordable drinking water by combining an innovative filtration membrane system with microfranchising",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://openversum.com/"
+    },
+    {
+      "name": "Pallon",
+      "description": "Know the Condition of Your Sewers With the Press of a Button",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Treatment",
+        " Distribution",
+        " Wastewater"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.pallon.com/workflow"
+    },
+    {
+      "name": "Puraffinity",
+      "description": "Our adsorbents are adaptable to large volume applications, and are designed with a high selectivity and high adsorption capacity, leading to lower footprints, less downtime, lower change-out frequency and attractive lifecycle costs.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.puraffinity.com/"
+    },
+    {
+      "name": "Swirltex",
+      "description": "Swirltex manages challenging waste streams to produce high-quality permeate at higher throughput, lower energy consumption, and in a broader range of climates. Put simply, Swirltex succeeds in applications where conventional membranes fail.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://swirltex.com/"
+    },
+    {
+      "name": "Water Lens",
+      "description": "Real-time water testing within 10 minutes",
+      "themes": [
+        "WaterTech",
+        " WaterTech"
+      ],
+      "subthemes": [
+        "Treatment",
+        " Monitoring & Forecasting"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://www.waterlensusa.com/"
+    },
+    {
+      "name": "Wateroam",
+      "description": "An innovative and easy-to-use community water filtration system strategically designed to meet the needs of rural and remote populations.",
+      "themes": [
+        "WaterTech"
+      ],
+      "subthemes": [
+        "Treatment"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2c",
+        "b2government"
+      ],
+      "website": "https://www.wateroam.com/"
+    },
+    {
+      "name": "Wota",
+      "description": "Builds product to increase accessibility to water facilities such as storage and sinks",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Treatment",
+        " Distribution",
+        " \nOperational Recovery"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
+      "website": "https://wota.co.jp/en/"
+    },
+    {
+      "name": "absolutewater",
+      "description": "Energy efficient and eco-friendly solutions for solid and liquid waste",
+      "themes": [
+        "WaterTech",
+        " WaterTech",
+        " \"Energy\n\""
+      ],
+      "subthemes": [
+        "Treatment",
+        " Wastewater",
+        " Resilient infrastructure"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": NaN,
+      "website": "absolutewater"
+    }
+  ],
   "desalination": [
     {
       "name": "Desolenator",
@@ -12898,7 +14505,10 @@ const mapping = {
         " Treatment"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.desolenator.com/"
     },
     {
@@ -13155,7 +14765,9 @@ const mapping = {
         " Analytics\n"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bluewhite.co/"
     },
     {
@@ -13168,7 +14780,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.bonsairobotics.ai/"
     },
     {
@@ -13185,7 +14799,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://cropx.com/"
     },
     {
@@ -13202,7 +14818,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.farmagain.in/"
     },
     {
@@ -13232,7 +14850,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.muddymachines.com/"
     },
     {
@@ -13245,7 +14865,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://mycionics.com/"
     },
     {
@@ -13279,7 +14901,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://rantizo.com/"
     },
     {
@@ -13296,7 +14920,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://sensilize.com/"
     },
     {
@@ -13311,7 +14937,11 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2C, B2B, B2Government",
+      "distribution": [
+        "b2c",
+        "b2b",
+        "b2government"
+      ],
       "website": "https://umitron.com/en/service.html"
     },
     {
@@ -13324,7 +14954,9 @@ const mapping = {
         "Mechanisation"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://vergeag.com/"
     },
     {
@@ -13341,7 +14973,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://worldfrom.space/what_we_do/agriculture/"
     },
     {
@@ -13356,7 +14990,9 @@ const mapping = {
         " Mechanisation"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ifarming.it/products/?lang=en"
     }
   ],
@@ -13371,7 +15007,9 @@ const mapping = {
         "Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://bedrockenergy.com/"
     },
     {
@@ -13384,7 +15022,9 @@ const mapping = {
         "Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://emergent.energy/"
     },
     {
@@ -13401,7 +15041,10 @@ const mapping = {
         " Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://nostromo.energy/"
     },
     {
@@ -13433,7 +15076,10 @@ const mapping = {
         " Off-Grid & Back-up Systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.perchenergy.com/"
     },
     {
@@ -13461,7 +15107,9 @@ const mapping = {
         "Storage"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.cellarinsights.com/"
     },
     {
@@ -13478,28 +15126,11 @@ const mapping = {
         " Off-Grid & Back-up Systems"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://nostromo.energy/"
-    }
-  ],
-  "west nile": [
-    {
-      "name": "Airinum",
-      "description": "Health products for living in polluted areas",
-      "themes": [
-        "ClimateHealthTech",
-        " ClimateHealthTech"
-      ],
-      "subthemes": [
-        "Vector-borne illness - malaria",
-        " dengue",
-        " West Nile",
-        " Lyme disease",
-        " Air Pollution"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2C",
-      "website": "https://www.airinum.com/"
     }
   ],
   "vector-borne illness - malaria": [
@@ -13518,27 +15149,9 @@ const mapping = {
         " Air Pollution"
       ],
       "tech": "Hardware",
-      "distribution": "B2C",
-      "website": "https://www.airinum.com/"
-    }
-  ],
-  "lyme disease": [
-    {
-      "name": "Airinum",
-      "description": "Health products for living in polluted areas",
-      "themes": [
-        "ClimateHealthTech",
-        " ClimateHealthTech"
+      "distribution": [
+        "b2c"
       ],
-      "subthemes": [
-        "Vector-borne illness - malaria",
-        " dengue",
-        " West Nile",
-        " Lyme disease",
-        " Air Pollution"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2C",
       "website": "https://www.airinum.com/"
     }
   ],
@@ -13558,7 +15171,53 @@ const mapping = {
         " Air Pollution"
       ],
       "tech": "Hardware",
-      "distribution": "B2C",
+      "distribution": [
+        "b2c"
+      ],
+      "website": "https://www.airinum.com/"
+    }
+  ],
+  "lyme disease": [
+    {
+      "name": "Airinum",
+      "description": "Health products for living in polluted areas",
+      "themes": [
+        "ClimateHealthTech",
+        " ClimateHealthTech"
+      ],
+      "subthemes": [
+        "Vector-borne illness - malaria",
+        " dengue",
+        " West Nile",
+        " Lyme disease",
+        " Air Pollution"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2c"
+      ],
+      "website": "https://www.airinum.com/"
+    }
+  ],
+  "west nile": [
+    {
+      "name": "Airinum",
+      "description": "Health products for living in polluted areas",
+      "themes": [
+        "ClimateHealthTech",
+        " ClimateHealthTech"
+      ],
+      "subthemes": [
+        "Vector-borne illness - malaria",
+        " dengue",
+        " West Nile",
+        " Lyme disease",
+        " Air Pollution"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2c"
+      ],
       "website": "https://www.airinum.com/"
     }
   ],
@@ -13575,7 +15234,9 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://www.biofilbd.com/"
     },
     {
@@ -13590,7 +15251,10 @@ const mapping = {
         " Sanitation"
       ],
       "tech": "Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "http://www.change-water.com/"
     },
     {
@@ -13632,7 +15296,10 @@ const mapping = {
         " Digital twin\n"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://www.fathom.global/"
     },
     {
@@ -13645,7 +15312,10 @@ const mapping = {
         "Damage Assessment"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://tractable.ai/"
     }
   ],
@@ -13660,7 +15330,9 @@ const mapping = {
         "Rapid payout"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://floodflash.co/"
     }
   ],
@@ -13679,26 +15351,9 @@ const mapping = {
         " cryptosporidiosis"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
-      "website": "https://biobot.io/"
-    }
-  ],
-  "giardiasis": [
-    {
-      "name": "Biobot analytics",
-      "description": "We analyze sewage with molecular technologies and AI to provide early warning of population health threats across the globe.",
-      "themes": [
-        "WaterTech",
-        " ClimateHealthTech"
+      "distribution": [
+        "b2government"
       ],
-      "subthemes": [
-        "Monitoring & Forecasting",
-        " Waterborne illness - cholera",
-        " giardiasis",
-        " cryptosporidiosis"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2Government",
       "website": "https://biobot.io/"
     }
   ],
@@ -13717,11 +15372,34 @@ const mapping = {
         " cryptosporidiosis"
       ],
       "tech": "Hardware",
-      "distribution": "B2Government",
+      "distribution": [
+        "b2government"
+      ],
       "website": "https://biobot.io/"
     }
   ],
-  "frontier tech\n": [
+  "giardiasis": [
+    {
+      "name": "Biobot analytics",
+      "description": "We analyze sewage with molecular technologies and AI to provide early warning of population health threats across the globe.",
+      "themes": [
+        "WaterTech",
+        " ClimateHealthTech"
+      ],
+      "subthemes": [
+        "Monitoring & Forecasting",
+        " Waterborne illness - cholera",
+        " giardiasis",
+        " cryptosporidiosis"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2government"
+      ],
+      "website": "https://biobot.io/"
+    }
+  ],
+  "frontier tech": [
     {
       "name": "AnySignal",
       "description": "AnySignal provides end-to-end solutions that cover communications, radar, navigation, and RF sensing for advanced aircraft, satellites, and national security.",
@@ -13732,7 +15410,9 @@ const mapping = {
         "Frontier Tech"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.anysignal.com/#home"
     },
     {
@@ -13764,7 +15444,7 @@ const mapping = {
       "website": "https://www.scentianbio.com/"
     }
   ],
-  "frontier tech": [
+  "frontier tech\n": [
     {
       "name": "AnySignal",
       "description": "AnySignal provides end-to-end solutions that cover communications, radar, navigation, and RF sensing for advanced aircraft, satellites, and national security.",
@@ -13775,7 +15455,9 @@ const mapping = {
         "Frontier Tech"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.anysignal.com/#home"
     },
     {
@@ -13820,7 +15502,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aerobotics.com/"
     },
     {
@@ -13835,7 +15519,9 @@ const mapping = {
         " Marketplace"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.climatecharted.com/"
     },
     {
@@ -13852,7 +15538,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigrate.com/"
     },
     {
@@ -13876,7 +15564,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     }
   ],
@@ -13892,34 +15582,10 @@ const mapping = {
         "Analytics\n"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://aquaoso.com/"
-    }
-  ],
-  "respiratory disease - worsened by air pollution": [
-    {
-      "name": "Ounce",
-      "description": "Ounce is on a mission to empower healthy and thriving communities by building bridges between housing and health.",
-      "themes": [
-        "ClimateHealthTech",
-        " ClimateHealthTech",
-        " FloodTech",
-        " FireTech",
-        " PropTech",
-        " Community Resilience"
-      ],
-      "subthemes": [
-        "Mental Health",
-        " Respiratory disease - worsened by air pollution",
-        " allergens",
-        " Community Resilience",
-        " Community resilience",
-        " Resilient Homes",
-        " General"
-      ],
-      "tech": "Software",
-      "distribution": "B2B",
-      "website": "https://www.ounceofcare.com/"
     }
   ],
   "mental health": [
@@ -13944,7 +15610,37 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.ounceofcare.com/"
+    }
+  ],
+  "respiratory disease - worsened by air pollution": [
+    {
+      "name": "Ounce",
+      "description": "Ounce is on a mission to empower healthy and thriving communities by building bridges between housing and health.",
+      "themes": [
+        "ClimateHealthTech",
+        " ClimateHealthTech",
+        " FloodTech",
+        " FireTech",
+        " PropTech",
+        " Community Resilience"
+      ],
+      "subthemes": [
+        "Mental Health",
+        " Respiratory disease - worsened by air pollution",
+        " allergens",
+        " Community Resilience",
+        " Community resilience",
+        " Resilient Homes",
+        " General"
+      ],
+      "tech": "Software",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     }
   ],
@@ -13970,7 +15666,9 @@ const mapping = {
         " General"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.ounceofcare.com/"
     }
   ],
@@ -13985,7 +15683,10 @@ const mapping = {
         "Insulation"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2C",
+      "distribution": [
+        "b2b",
+        "b2c"
+      ],
       "website": "https://www.varm.earth/"
     }
   ],
@@ -13998,7 +15699,9 @@ const mapping = {
       ],
       "subthemes": [],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.pow.bio/"
     }
   ],
@@ -14017,7 +15720,9 @@ const mapping = {
         " Risk analysis"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.aquascope.com/"
     },
     {
@@ -14030,7 +15735,9 @@ const mapping = {
         "Data Science"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://earthmover.io/"
     },
     {
@@ -14045,7 +15752,9 @@ const mapping = {
         " Data Science"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.sustglobal.com/"
     }
   ],
@@ -14062,8 +15771,63 @@ const mapping = {
         " Satelites"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://albedo.com/"
+    }
+  ],
+  "transport": [
+    {
+      "name": "Candela",
+      "description": "game-changing electric ferries",
+      "themes": [
+        "Transport"
+      ],
+      "subthemes": [
+        "Water-vessels"
+      ],
+      "tech": "Hardware, Software",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://candela.com/"
+    },
+    {
+      "name": "Cargokite",
+      "description": "autonomous micro cargo ship powered solely by wind energy. The 21st century version of a sailing ship is propelled by an Airborne Wind Energy System, whose main component is a kite. By flying at an altitude of 100 to 300 meters, there is always enough wind to power the ship reliably.",
+      "themes": [
+        "Transport"
+      ],
+      "subthemes": [
+        "Water-vessels"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.cargokite.com/"
+    },
+    {
+      "name": "Marine Labs",
+      "description": "MarineLabs harnesses the power of our continuously expanding sensor network to provide the highest-resolution data, enhancing safety, streamlining marine operations, and building climate-resilient coastlines. Access to real-time weather intelligence means users can make smarter, safer maritime decisions.",
+      "themes": [
+        "Transport",
+        " Climate Intelligence",
+        " WaterTech",
+        " Disaster Response"
+      ],
+      "subthemes": [
+        "Maritime management",
+        " Risk analysis",
+        " Monitoring & Forecasting",
+        " Early-warning systems"
+      ],
+      "tech": "Software, Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://marinelabs.io/"
     }
   ],
   "maritime management": [
@@ -14083,54 +15847,9 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software, Hardware",
-      "distribution": "B2B",
-      "website": "https://marinelabs.io/"
-    }
-  ],
-  "transport": [
-    {
-      "name": "Candela",
-      "description": "game-changing electric ferries",
-      "themes": [
-        "Transport"
+      "distribution": [
+        "b2b"
       ],
-      "subthemes": [
-        "Water-vessels"
-      ],
-      "tech": "Hardware, Software",
-      "distribution": "B2B",
-      "website": "https://candela.com/"
-    },
-    {
-      "name": "Cargokite",
-      "description": "autonomous micro cargo ship powered solely by wind energy. The 21st century version of a sailing ship is propelled by an Airborne Wind Energy System, whose main component is a kite. By flying at an altitude of 100 to 300 meters, there is always enough wind to power the ship reliably.",
-      "themes": [
-        "Transport"
-      ],
-      "subthemes": [
-        "Water-vessels"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://www.cargokite.com/"
-    },
-    {
-      "name": "Marine Labs",
-      "description": "MarineLabs harnesses the power of our continuously expanding sensor network to provide the highest-resolution data, enhancing safety, streamlining marine operations, and building climate-resilient coastlines. Access to real-time weather intelligence means users can make smarter, safer maritime decisions.",
-      "themes": [
-        "Transport",
-        " Climate Intelligence",
-        " WaterTech",
-        " Disaster Response"
-      ],
-      "subthemes": [
-        "Maritime management",
-        " Risk analysis",
-        " Monitoring & Forecasting",
-        " Early-warning systems"
-      ],
-      "tech": "Software, Hardware",
-      "distribution": "B2B",
       "website": "https://marinelabs.io/"
     }
   ],
@@ -14145,7 +15864,9 @@ const mapping = {
         "Water-vessels"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://candela.com/"
     },
     {
@@ -14158,7 +15879,9 @@ const mapping = {
         "Water-vessels"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.cargokite.com/"
     }
   ],
@@ -14190,7 +15913,9 @@ const mapping = {
         " Aquaculture"
       ],
       "tech": "Hardware, Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://poseidonos.com/"
     }
   ],
@@ -14207,7 +15932,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigasolutions.com/"
     },
     {
@@ -14224,7 +15951,9 @@ const mapping = {
         " Due Diligence Support"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.mitigrate.com/"
     },
     {
@@ -14243,38 +15972,6 @@ const mapping = {
       "website": "https://vida.place/"
     }
   ],
-  "built environment": [
-    {
-      "name": "Amperial",
-      "description": "With our smart window foil we are enabling you to reflect solar heat by the flick of a switch",
-      "themes": [
-        "\"TemperatureTech\n\"",
-        " Built Environment"
-      ],
-      "subthemes": [
-        "Efficiency",
-        " Heating"
-      ],
-      "tech": "Hardware",
-      "distribution": "B2B",
-      "website": "https://www.amperial.eu/"
-    },
-    {
-      "name": "Mimic Systems",
-      "description": "We design solid-state heating and cooling systems at a building scale.",
-      "themes": [
-        "\"TemperatureTech\n\"",
-        " Built Environment"
-      ],
-      "subthemes": [
-        "Efficiency",
-        " Heating"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.mimic.systems/"
-    }
-  ],
   "heating": [
     {
       "name": "Amperial",
@@ -14288,7 +15985,9 @@ const mapping = {
         " Heating"
       ],
       "tech": "Hardware",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.amperial.eu/"
     },
     {
@@ -14307,7 +16006,41 @@ const mapping = {
       "website": "https://www.mimic.systems/"
     }
   ],
-  "autonomous cooking": [
+  "built environment": [
+    {
+      "name": "Amperial",
+      "description": "With our smart window foil we are enabling you to reflect solar heat by the flick of a switch",
+      "themes": [
+        "\"TemperatureTech\n\"",
+        " Built Environment"
+      ],
+      "subthemes": [
+        "Efficiency",
+        " Heating"
+      ],
+      "tech": "Hardware",
+      "distribution": [
+        "b2b"
+      ],
+      "website": "https://www.amperial.eu/"
+    },
+    {
+      "name": "Mimic Systems",
+      "description": "We design solid-state heating and cooling systems at a building scale.",
+      "themes": [
+        "\"TemperatureTech\n\"",
+        " Built Environment"
+      ],
+      "subthemes": [
+        "Efficiency",
+        " Heating"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.mimic.systems/"
+    }
+  ],
+  "foodtech": [
     {
       "name": "Else Labs",
       "description": "The Oliver Fleet has the capability to dispense ingredients, manage cooking temperatures, as well as mix and stir when required, providing your kitchen with an autonomous cooking solution.",
@@ -14322,7 +16055,7 @@ const mapping = {
       "website": "https://elselabs.io/"
     }
   ],
-  "foodtech": [
+  "autonomous cooking": [
     {
       "name": "Else Labs",
       "description": "The Oliver Fleet has the capability to dispense ingredients, manage cooking temperatures, as well as mix and stir when required, providing your kitchen with an autonomous cooking solution.",
@@ -14352,7 +16085,10 @@ const mapping = {
         " Early-warning systems"
       ],
       "tech": "Software",
-      "distribution": "B2B, B2Government",
+      "distribution": [
+        "b2b",
+        "b2government"
+      ],
       "website": "https://climasens.com/"
     }
   ],
@@ -14390,23 +16126,6 @@ const mapping = {
       "website": "https://www.syrenna.com/"
     }
   ],
-  "heat-related illness - heat stroke": [
-    {
-      "name": "Cryogenx",
-      "description": "Portable body cooling technology for heatstroke\n",
-      "themes": [
-        "ClimateHealthTech"
-      ],
-      "subthemes": [
-        "Heat-related illness - heat stroke",
-        " heat exhaustion",
-        " heat cramps"
-      ],
-      "tech": "Hardware",
-      "distribution": NaN,
-      "website": "https://www.cryogenx.com/"
-    }
-  ],
   "heat cramps": [
     {
       "name": "Cryogenx",
@@ -14441,7 +16160,24 @@ const mapping = {
       "website": "https://www.cryogenx.com/"
     }
   ],
-  "erosion": [
+  "heat-related illness - heat stroke": [
+    {
+      "name": "Cryogenx",
+      "description": "Portable body cooling technology for heatstroke\n",
+      "themes": [
+        "ClimateHealthTech"
+      ],
+      "subthemes": [
+        "Heat-related illness - heat stroke",
+        " heat exhaustion",
+        " heat cramps"
+      ],
+      "tech": "Hardware",
+      "distribution": NaN,
+      "website": "https://www.cryogenx.com/"
+    }
+  ],
+  "coastaltech": [
     {
       "name": "Shorelock",
       "description": "ShoreLock is an anti-erosion product designed to mitigate the negative effects of tidal erosion in coastal environments. It works by promoting the interaction between water and sand to increase its cohesiveness and facilitate natural cohesion. Our plant based technology is eco-friendly, sustainable and has no negative side effects to marine, animal or plant life.",
@@ -14456,7 +16192,7 @@ const mapping = {
       "website": "https://www.shorelock.com/how-it-works-1"
     }
   ],
-  "coastaltech": [
+  "erosion": [
     {
       "name": "Shorelock",
       "description": "ShoreLock is an anti-erosion product designed to mitigate the negative effects of tidal erosion in coastal environments. It works by promoting the interaction between water and sand to increase its cohesiveness and facilitate natural cohesion. Our plant based technology is eco-friendly, sustainable and has no negative side effects to marine, animal or plant life.",
@@ -14484,7 +16220,9 @@ const mapping = {
         " Marketplace"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.climatecharted.com/"
     }
   ],
@@ -14501,7 +16239,9 @@ const mapping = {
         " Marketplace"
       ],
       "tech": "Software",
-      "distribution": "B2B",
+      "distribution": [
+        "b2b"
+      ],
       "website": "https://www.climatecharted.com/"
     }
   ]

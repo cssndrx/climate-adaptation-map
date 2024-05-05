@@ -38,6 +38,9 @@ def process_csv_to_js_object(file_path):
             subthemes = subthemes.split(',')
         else:
             subthemes = []
+        if pd.notna(distribution):
+            distribution = [x.strip().lower() for x in distribution.split(',')]
+            distribution = ['b2b' if x == 'bb2' else x for x in distribution]
 
         # Append the data as a dictionary to the list in the correct category
         for var_name in ['description', 'themes', 'subthemes', 'tech', 'distribution', 'website']:
@@ -48,10 +51,7 @@ def process_csv_to_js_object(file_path):
         all_themes = [theme.strip().strip('"').lower() for theme in all_themes]
         all_themes = set(all_themes)
         for theme in all_themes:
-            try:
-                categorized_data[theme].append(datum)
-            except TypeError:
-                breakpoint()
+            categorized_data[theme].append(datum)
 
     # Sort alphabetically
     for category in categorized_data:
