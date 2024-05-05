@@ -75,9 +75,11 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
             <div style="height: 20px; width: 20px; display: inline-block; border-radius: 50%;" :style="{'background-color': color}">
             </div>
             {{ labels[ind] }}
-
         </div>
 
+        <div style="margin: 8px 0">
+            <div class="company activejobs" style="background-color: #000"></div> <span style="position:relative; top:-8px">If the company is hiring it has a <span style="color: orange">gold</span> rim. Join Climate Draft to view job postings.</span>
+        </div>
         <div style="margin-top: 16px">
             If you want to add a company or a fix a category, you can do so <a class="link" href="https://docs.google.com/spreadsheets/d/130GjTo-i4gZseMDhTcaPOglrnsMvW35QH1VeHDPKbXM/edit?usp=sharing">here</a>.
         </div>
@@ -156,6 +158,16 @@ Vue.createApp({
             }
 
             // todo: add in roundedness?
+            // border-radius: 10px 10px 0 0;
+            if (company.tech.length == 1 && company.tech[0] == 'hardware'){
+                datum['border-radius'] = 0;
+            }
+            if (company.tech.length == 1 && company.tech[0] == 'software'){
+                datum['border-radius'] = '50%';
+            }
+            if (company.tech.length == 2){
+                datum['border-radius'] = '0 0 50% 50%';
+            }
 
             return datum;
         },
@@ -212,6 +224,7 @@ body{
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
+    margin-right: 2px;
 }
 
 .active-company{

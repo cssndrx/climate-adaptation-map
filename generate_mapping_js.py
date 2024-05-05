@@ -3,6 +3,15 @@ from collections import defaultdict
 import json
 import pandas as pd
 
+
+def make_list(list_like_str):
+    if pd.notna(list_like_str):
+        tokens = list_like_str.split(',')
+        return [token.lower().strip() for token in tokens]
+    else:
+        return []
+
+
 def process_csv_to_js_object(file_path):
     # Read the CSV file using pandas
     df = pd.read_csv(file_path, encoding='utf-8', dtype=str)
@@ -30,14 +39,10 @@ def process_csv_to_js_object(file_path):
         except AttributeError:
             description = ''
 
-        if pd.notna(themes):
-            themes = themes.split(',')
-        else:
-            themes = []
-        if pd.notna(subthemes):
-            subthemes = subthemes.split(',')
-        else:
-            subthemes = []
+        themes = make_list(themes)
+        subthemes = make_list(subthemes)
+        tech = make_list(tech)
+
         if pd.notna(distribution):
             distribution = [x.strip().lower() for x in distribution.split(',')]
             distribution = ['b2b' if x == 'bb2' else x for x in distribution]
