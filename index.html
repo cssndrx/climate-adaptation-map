@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Drawdown in Action</title>
+<title>Climate Adaptation Map</title>
 <script src="
 https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 "></script>
@@ -13,17 +13,17 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Drawdown in Action">
-<meta name="twitter:description" content="These companies are working on Drawdown solutions">
+<meta name="twitter:title" content="Climate Adaptation Map">
+<meta name="twitter:description" content="These companies are working on climate adaptation">
 <meta name="twitter:creator" content="@CassandraXia">
 <meta name="twitter:image" content="https://cassandraxia.com/climate-draft-map/preview.png">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="Drawdown in Action">
+<meta property="og:title" content="Climate Adaptation Map">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cassandraxia.com/climate-draft-map/">
 <meta property="og:image" content="https://cassandraxia.com/climate-draft-map/preview.png" />
-<meta property="og:description" content="These companies are working on Drawdown solutions">
+<meta property="og:description" content="These companies are working on climate adaptation">
 </head>
 
 <body>
@@ -34,33 +34,32 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 <div style="display:grid; grid-template-columns: 7fr 3fr;">
 
     <div>
-        <h1>These companies are working on Drawdown solutions</h1>
-        <p style="font-size:14px; max-width: 800px"><a class="link" href="https://drawdown.org/solutions/table-of-solutions">Project Drawdown</a> has a table of solutions sorted by climate impact. Taking the companies on <a class="link" href="https://www.climatedraft.org/">Climate Draft</a> and running a language model to tag which solutions companies were working on, yielded these results.</p>
-    </div>
+        <h1>These companies are working on climate adaptation</h1>
+        <p style="font-size:14px; max-width: 800px">TODO: explain and link  </div>
 
     <div></div>
 
     <div>
-    <div v-for="solution in solutions" :key="solution.name" style="margin-top:16px" @click="clickOnSolution(solution)">
+    <div v-for="solution in solutions" :key="solution" style="margin-top:16px" @click="clickOnSolution(solution)">
 
-        <div class="active-solution" v-if="activeSolution.name === solution.name" :style="activeSolutionHeight">
-            <a :href="makeUrl(company.website)" target="_blank" class="company active-company" v-for="company in mapping[solution.name]" :key="company.name" :title="company.description" :style="companyStyle(company)" :class="{'activejobs': company['active_jobs'] > 0}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{company.name}}</a>    
+        <div class="active-solution" v-if="activeSolution === solution" :style="activeSolutionHeight">
+            <a :href="makeUrl(company.website)" target="_blank" class="company active-company" v-for="company in mapping[solution]" :key="company.name" :title="company.description" :style="companyStyle(company)" :class="{'activejobs': company['active_jobs'] > 0}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{company.name}}</a>
  
         </div>
         <template v-else>
-            <a v-for="company in mapping[solution.name]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
+            <a v-for="company in mapping[solution]" :key="company.name" class="company" :title="company.description" :style="companyStyle(company)" :href="makeUrl(company.website)" target="_blank" :class="{'activejobs': company['active_jobs'] > 0}">
             </a>    
         </template>
 
         <!-- No companies, sp no circles, but still keep height-->
-        <div v-if="mapping[solution.name] === undefined" style="height: 20px">
+        <div v-if="mapping[solution] === undefined" style="height: 20px">
 
-            <div v-if="activeSolution.name === solution.name">No companies. Add your own.</div>
+            <div v-if="activeSolution === solution">{{solution}} Add your own.</div>
 
         </div>
 
 
-        <div class="bar" :style="barStyle(solution)" ><span style="font-weight:bold">{{ solution.name }}</span> <span style="font-size:10px">{{solution.impact}}GT</span></div>
+        <div class="bar" ><span style="font-weight:bold; text-transform: capitalize">{{ solution }}</span> </div>
 
     </div>
     </div>
@@ -98,112 +97,21 @@ https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js
 // #1BC6CB - baby blue
 // 3B6CA8 - serious blue
 
-const solutions = [
-  {name: 'Reduced Food Waste', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 88.5},
-  {name: 'Plant-Rich Diets', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 78.33},
-  {name: 'Family Planning and Education', sector: 'Health and Education', impact: 68.9},
-  {name: 'Refrigerant Management', sector: 'Industry / Buildings', impact: 57.15},
-  {name: 'Tropical Forest Restoration', sector: 'Land Sinks', impact: 54.45},
-  {name: 'Onshore Wind Turbines', sector: 'Electricity', impact: 46.95},
-  {name: 'Alternative Refrigerants', sector: 'Industry / Buildings', impact: 42.73},
-  {name: 'Utility-Scale Solar Photovoltaics', sector: 'Electricity', impact: 40.83},
-  {name: 'Clean Cooking', sector: 'Buildings', impact: 31.38},
-  {name: 'Distributed Solar Photovoltaics', sector: 'Electricity', impact: 26.65},
-  {name: 'Silvopasture', sector: 'Land Sinks', impact: 26.58},
-  {name: 'Methane Leak Management', sector: 'Other Energy', impact: 25.83},
-  {name: 'Peatland Protection and Rewetting', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 25.4},
-  {name: 'Tree Plantations (on Degraded Land)', sector: 'Land Sinks', impact: 22.04},
-  {name: 'Temperate Forest Restoration', sector: 'Land Sinks', impact: 19.42},
-  {name: 'Concentrated Solar Power', sector: 'Electricity', impact: 18.0},
-  {name: 'Perennial Staple Crops', sector: 'Land Sinks', impact: 16.34},
-  {name: 'Insulation', sector: 'Electricity / Buildings', impact: 15.38},
-  {name: 'Regenerative Annual Cropping', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 15.12},
-  {name: 'Tree Intercropping', sector: 'Land Sinks', impact: 15.03},
-  {name: 'LED Lighting', sector: 'Electricity', impact: 14.45},
-  {name: 'Managed Grazing', sector: 'Land Sinks', impact: 13.72},
-  {name: 'Multistrata Agroforestry', sector: 'Land Sinks', impact: 13.26},
-  {name: 'Conservation Agriculture', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 12.81},
-  {name: 'Abandoned Farmland Restoration', sector: 'Land Sinks', impact: 12.48},
-  {name: 'Recycling', sector: 'Industry', impact: 10.36},
-  {name: 'Offshore Wind Turbines', sector: 'Electricity', impact: 10.22},
-  {name: 'Improved Rice Production', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 9.85},
-  {name: 'Building Automation Systems', sector: 'Electricity / Buildings', impact: 9.55},
-  {name: 'Public Transit', sector: 'Transportation', impact: 9.42},
-  {name: 'Efficient Trucks', sector: 'Transportation', impact: 9.15},
-  {name: 'Carpooling', sector: 'Transportation', impact: 9.06},
-  {name: 'High-Performance Glass', sector: 'Electricity / Buildings', impact: 8.82},
-  {name: 'Indigenous Peoples’ Forest Tenure', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 8.69},
-  {name: 'Alternative Cement', sector: 'Industry', impact: 7.7},
-  {name: 'Bamboo Production', sector: 'Land Sinks', impact: 7.7},
-  {name: 'Electric Cars', sector: 'Transportation', impact: 7.66},
-  {name: 'Smart Thermostats', sector: 'Electricity / Buildings', impact: 6.91},
-  {name: 'Efficient Ocean Shipping', sector: 'Transportation', impact: 6.72},
-  {name: 'Waste to Energy', sector: 'Electricity / Industry', impact: 6.27},
-  {name: 'District Heating', sector: 'Electricity / Buildings', impact: 6.18},
-  {name: 'Geothermal Power', sector: 'Electricity', impact: 6.15},
-  {name: 'Methane Digesters', sector: 'Electricity / Industry', impact: 6.02},
-  {name: 'Forest Protection', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 5.55},
-  {name: 'Efficient Aviation', sector: 'Transportation', impact: 5.29},
-  {name: 'Biogas for Cooking', sector: 'Buildings', impact: 4.65},
-  {name: 'Improved Cattle Feed', sector: 'Food, Agriculture, and Land Use', impact: 4.42},
-  {name: 'Recycled Metals', sector: 'Industry', impact: 4.31},
-  {name: 'High-Efficiency Heat Pumps', sector: 'Electricity / Buildings', impact: 4.04},
-  {name: 'Perennial Biomass Production', sector: 'Land Sinks', impact: 4.0},
-  {name: 'Landfill Methane Capture', sector: 'Electricity / Industry', impact: 3.89},
-  {name: 'Seafloor Protection', sector: 'Food, Agriculture, and Land Use', impact: 3.8},
-  {name: 'Reduced Plastics', sector: 'Industry', impact: 3.76},
-  {name: 'Solar Hot Water', sector: 'Electricity / Buildings', impact: 3.41},
-  {name: 'Grassland Protection', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 3.35},
-  {name: 'Improved Manure Management', sector: 'Food, Agriculture, and Land Use', impact: 3.34},
-  {name: 'Nuclear Power', sector: 'Electricity', impact: 3.17},
-  {name: 'System of Rice Intensification', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 2.9},
-  {name: 'Walkable Cities', sector: 'Transportation', impact: 2.83},
-  {name: 'Nutrient Management', sector: 'Food, Agriculture, and Land Use', impact: 2.77},
-  {name: 'Bicycle Infrastructure', sector: 'Transportation', impact: 2.73},
-  {name: 'Telepresence', sector: 'Transportation', impact: 2.64},
-  {name: 'Biomass Power', sector: 'Electricity', impact: 2.62},
-  {name: 'Macroalgae Protection and Restoration', sector: 'Coastal and Ocean Sinks', impact: 2.61},
-  {name: 'Seaweed Farming', sector: 'Coastal and Ocean Sinks / Coastal and Ocean Sinks', impact: 2.5},
-  {name: 'Recycled Paper', sector: 'Industry', impact: 2.28},
-  {name: 'Electric Trains', sector: 'Transportation', impact: 1.91},
-  {name: 'Small Hydropower', sector: 'Electricity', impact: 1.65},
-  {name: 'Hybrid Cars', sector: 'Transportation', impact: 1.61},
-  {name: 'Electric Bicycles', sector: 'Transportation', impact: 1.39},
-  {name: 'Biochar Production', sector: 'Engineered Sinks', impact: 1.36},
-  {name: 'Sustainable Intensification for Smallholders', sector: 'Food, Agriculture, and Land Use / Land Sinks', impact: 1.36},
-  {name: 'Bioplastics', sector: 'Industry', impact: 1.33},
-  {name: 'Ocean Power', sector: 'Electricity', impact: 1.27},
-  {name: 'High-Speed Rail', sector: 'Transportation', impact: 1.26},
-  {name: 'Coastal Wetland Protection', sector: 'Food, Agriculture, and Land Use / Coastal and Ocean Sinks', impact: 1.2},
-  {name: 'Composting', sector: 'Industry', impact: 1.13},
-  {name: 'Farm Irrigation Efficiency', sector: 'Food, Agriculture, and Land Use', impact: 1.13},
-  {name: 'Improved Fisheries', sector: 'Food, Agriculture, and Land Use / Coastal and Ocean Sinks', impact: 1.01},
-  {name: 'Low-Flow Fixtures', sector: 'Electricity / Buildings', impact: 0.93},
-  {name: 'Coastal Wetland Restoration', sector: 'Coastal and Ocean Sinks', impact: 0.76},
-  {name: 'Water Distribution Efficiency', sector: 'Electricity', impact: 0.61},
-  {name: 'Green and Cool Roofs', sector: 'Electricity / Buildings', impact: 0.53},
-  {name: 'Recycled Plastics', sector: 'Industry', impact: 0.52},
-  {name: 'Improved Aquaculture', sector: 'Food, Agriculture, and Land Use', impact: 0.5},
-  {name: 'Dynamic Glass', sector: 'Electricity / Buildings', impact: 0.34},
-  {name: 'Micro Wind Turbines', sector: 'Electricity', impact: 0.09},
-];
-
-
 
 function lerp(x, a, b, c, d){
 	const scale = (x-a)/(b-a);
 	return (d-c)*scale + c;
 }
 
-const nullActiveSolution = {'name': 'nope'};
+const solutions = _.sortBy(_.keys(mapping));
 
 Vue.createApp({
     computed: {
         activeSolutionHeight(){
-            if (!this.mapping[this.activeSolution.name]){
+            if (!this.mapping[this.activeSolution]){
                 return {'margin-top': '20px'};
             }
-            const maxLengthSolution = _.max(this.mapping[this.activeSolution.name].map(company => company.name.length));
+            const maxLengthSolution = _.max(this.mapping[this.activeSolution].map(company => company.name.length));
             return {'margin-top': maxLengthSolution * 8 + 20 + 'px'};
         },
         isMobile(){
@@ -223,7 +131,7 @@ Vue.createApp({
             mapping: mapping,
             windowWidth: window.innerWidth * .6,
             windowHeight: window.innerHeight,
-            activeSolution: nullActiveSolution, //solutions[0]
+            activeSolution: solutions[0]
         };
     },
     mounted(){
@@ -232,11 +140,6 @@ Vue.createApp({
       }
     },
     methods: {
-        barStyle(solution){
-            const maxImpact = 100; // todo
-            const width = lerp(solution.impact, 0, maxImpact, 0, this.windowWidth);
-            return {width: width + 'px'};
-        },
         companyStyle(company){
             const colors = this.colors;
             const index = this.binIndex(company.employees);
@@ -252,9 +155,7 @@ Vue.createApp({
             return _.sortedIndex(binEdges, value);
         },
         makeUrl(str){
-          if (!str.includes('http')){
-            return 'https://' + str;
-          }
+            return str;
         },
         clickOnSolution(solution){
             if (!this.isMobile){
